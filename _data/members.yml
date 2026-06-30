@@ -1,0 +1,44 @@
+pi:
+  - name: "Yuqiang Zhang"
+    role: "Principal Investigator"
+    affiliation: "Shandong University"
+    email: "Yuqiang.Zhang@sdu.edu.cn"
+    initials: "YZ"
+    interests:
+      - "Atmospheric chemistry"
+      - "Air quality and climate interactions"
+      - "Environmental health"
+      - "Chemical transport modeling"
+
+current:
+  - name: "Postdoctoral Researcher"
+    role: "Postdoctoral Fellow"
+    affiliation: "XYZ-CHANGE Group"
+    email: ""
+    initials: "PR"
+    interests:
+      - "Atmospheric modeling"
+      - "Air pollution exposure"
+
+  - name: "PhD Student"
+    role: "PhD Student"
+    affiliation: "XYZ-CHANGE Group"
+    email: ""
+    initials: "PS"
+    interests:
+      - "Ozone formation"
+      - "Machine learning"
+
+  - name: "Master Student"
+    role: "Master Student"
+    affiliation: "XYZ-CHANGE Group"
+    email: ""
+    initials: "MS"
+    interests:
+      - "Satellite remote sensing"
+      - "Health impact assessment"
+
+alumni:
+  - name: "Alumni Name"
+    role: "Former Group Member"
+    now: "Current position"
