@@ -1,0 +1,23 @@
+- year: 2025
+  title: "Example publication title on atmospheric chemistry and air pollution"
+  authors: "Author A, Author B, and Yuqiang Zhang"
+  journal: "Journal Name"
+  doi: ""
+  url: ""
+  type: "Article"
+
+- year: 2024
+  title: "Example publication title on climate, health, and air quality"
+  authors: "Author A, Author B, and Yuqiang Zhang"
+  journal: "Journal Name"
+  doi: ""
+  url: ""
+  type: "Article"
+
+- year: 2023
+  title: "Example publication title on environmental exposure and inequality"
+  authors: "Author A, Author B, and Yuqiang Zhang"
+  journal: "Journal Name"
+  doi: ""
+  url: ""
+  type: "Article"
