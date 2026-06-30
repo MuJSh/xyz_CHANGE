@@ -1,0 +1,45 @@
+title: "XYZ-CHANGE Group"
+subtitle: "Climate, Health, and Air Quality for Next Generation"
+email: "Yuqiang.Zhang@sdu.edu.cn"
+description: >-
+  The XYZ-CHANGE Group studies atmospheric chemistry, air quality, climate interactions,
+  environmental health, and data-driven approaches for understanding air pollution and its impacts.
+
+url: "https://mujsh.github.io"
+baseurl: "/xyz_CHANGE"
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Group Members"
+    url: "/group-members/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "News"
+    url: "/news/"
+  - title: "Conferences"
+    url: "/conferences/"
+  - title: "Openings"
+    url: "/openings/"
+
+social:
+  github: "https://github.com/MuJSh/xyz_CHANGE"
+  email: "mailto:Yuqiang.Zhang@sdu.edu.cn"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
