@@ -27,6 +27,7 @@ current:
     email: "linli@sdu.edu.cn"
     initials: "LL"
     photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/linli.jpg"
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/lin-li/"
     education:
       - "2017–2022, PhD, Nanjing University of Information Science & Technology"
       - "2013–2017, BS, Nanjing University of Information Science & Technology"
@@ -37,6 +38,7 @@ current:
     email: "zhuyi_wang@163.com"
     initials: "ZW"
     photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/zhuyiwang.jpg"
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/zhuyi-wang/"
     education:
       - "2020–2023, MS, China University of Petroleum (East China)"
       - "2016–2020, BS, Shandong Jianzhu University"
@@ -47,6 +49,7 @@ current:
     email: "luobin.sdu@mail.sdu.edu.cn"
     initials: "BL"
     photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/binluo.jpg"
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/bin-luo/"
     education:
       - "2018–2022, BS, Xiangtan University"
 
@@ -56,6 +59,7 @@ current:
     email: "zhaoqigao@mail.sdu.edu.cn"
     initials: "ZG"
     photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/gzq.jpg"
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/zhaoqi-gao/"
     education:
       - "2022–2025, MS, Shandong University"
       - "2018–2022, BS, Qingdao University of Technology"
@@ -66,6 +70,7 @@ current:
     email: "202433120@mail.sdu.edu.cn"
     initials: "QZ"
     photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/zqh.jpg"
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/qionghui-zhou/"
     education:
       - "2020–2024, BS, Henan University of Technology"
 
@@ -75,6 +80,7 @@ current:
     email: "chaojixiaoniuniu@qq.com"
     initials: "CN"
     photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/ncw.jpg"
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/chengwen-niu/"
     education:
       - "2021–2025, BS, Shandong Agricultural University"
 
