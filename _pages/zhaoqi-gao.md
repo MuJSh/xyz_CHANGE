@@ -21,11 +21,3 @@ permalink: /members/zhaoqi-gao/
 
 - 2022–2025, M.S., Shandong University
 - 2018–2022, B.S., Qingdao University of Technology
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
