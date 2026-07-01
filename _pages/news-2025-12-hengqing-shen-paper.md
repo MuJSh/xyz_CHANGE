@@ -12,7 +12,9 @@ By using multiple CMIP6 models, the study also estimates potential future change
 
 This work is a collaboration between Shandong University and Duke University.
 
-Figure 2 in the paper shows the eight-year average changes in PV capacity factor and power generation caused by reduced atmospheric dimming for each province in China under different panel settings.
+![Impact of panel settings on PV capacity factors and power generation]({{ '/assets/img/news/xuanying-pv.jpg' | relative_url }})
+
+*Figure 2. The eight-year average changes in PV capacity factor and power generation caused by reduced atmospheric dimming for each province in China under different panel settings.*
 
 Paper link: [https://iopscience.iop.org/article/10.1088/1748-9326/ae2e16](https://iopscience.iop.org/article/10.1088/1748-9326/ae2e16)
 
