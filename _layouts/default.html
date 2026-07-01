@@ -13,5 +13,43 @@
       {{ content }}
     </main>
     {% include footer.html %}
+    <script>
+      (function () {
+        const newsItems = [
+          {% for item in site.data.news %}
+          { title: {{ item.title | jsonify }}, link: {{ item.link | jsonify }} }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ].filter(function (item) { return item.link && item.link !== ''; });
+
+        function normalizePath(url) {
+          const a = document.createElement('a');
+          a.href = url;
+          return a.pathname.replace(/\/$/, '');
+        }
+
+        const currentPath = window.location.pathname.replace(/\/$/, '');
+        const currentIndex = newsItems.findIndex(function (item) {
+          return normalizePath(item.link) === currentPath;
+        });
+
+        if (currentIndex < 0 || document.querySelector('.news-page-nav')) return;
+
+        const previous = newsItems[currentIndex - 1];
+        const next = newsItems[currentIndex + 1];
+        const nav = document.createElement('nav');
+        nav.className = 'news-page-nav';
+        nav.innerHTML =
+          '<div>' +
+          (previous ? '<a href="' + previous.link + '">← Previous<br><strong>' + previous.title + '</strong></a>' : '') +
+          '</div>' +
+          '<div>' +
+          (next ? '<a href="' + next.link + '">Next →<br><strong>' + next.title + '</strong></a>' : '') +
+          '</div>' +
+          '<p><a href="{{ '/news/' | relative_url }}">Back to all news</a></p>';
+
+        const main = document.querySelector('.site-main');
+        if (main) main.appendChild(nav);
+      })();
+    </script>
   </body>
 </html>
