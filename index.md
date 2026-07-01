@@ -9,7 +9,7 @@ permalink: /
     <img class="home-profile-photo" src="https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/Yuqiangzhang.jpg" alt="Yuqiang Zhang">
     <h1>Yuqiang Zhang</h1>
     <p class="profile-title">Professor</p>
-    <p class="meta">Institute of Environmental Research<br>Shandong University</p>
+    <p class="meta">Environment Research Institute<br>Shandong University</p>
     <p><a href="mailto:Yuqiang.Zhang@sdu.edu.cn">Yuqiang.Zhang@sdu.edu.cn</a></p>
     <p><a href="{{ '/members/yuqiang-zhang/' | relative_url }}">Full profile</a></p>
   </aside>
@@ -38,7 +38,7 @@ permalink: /
     <section>
       <h2>About Prof. Zhang</h2>
       <p>
-        Dr. Yuqiang Zhang is a Professor and doctoral supervisor at the Institute of Environmental Research, Shandong University. He was selected for the National Overseas High-Level Young Talents Program and recognized as a Distinguished Young and Middle-Aged Scholar of Shandong University.
+        Dr. Yuqiang Zhang is a Professor and doctoral supervisor at the Environment Research Institute, Shandong University. He was selected for the National Overseas High-Level Young Talents Program and recognized as a Distinguished Young and Middle-Aged Scholar of Shandong University.
       </p>
       <p>
         His research uses global and regional climate models (GCMs), chemical transport models (CTMs), and high-resolution satellite retrievals to investigate coordinated pathways for carbon neutrality and air quality attainment, transboundary transport of air pollutants, impacts of climate change on air quality and human health, and the effects of urbanization on air quality and health.
