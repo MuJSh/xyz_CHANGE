@@ -20,11 +20,3 @@ permalink: /members/zhou-liu/
 ## Education
 
 - xxxx
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
