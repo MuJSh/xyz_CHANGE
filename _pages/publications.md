@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 ---
 
-The publication list is generated from `_data/publications.yml`.
+An asterisk after an author name denotes the corresponding author.
 
 {% assign current_year = "" %}
 {% for pub in site.data.publications %}
@@ -14,11 +14,13 @@ The publication list is generated from `_data/publications.yml`.
     <h2>{{ current_year }}</h2>
   {% endif %}
 
-  <div class="list-item">
-    <strong>{{ pub.title }}</strong><br>
-    {{ pub.authors }}.<br>
-    <em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}.
-    {% if pub.doi and pub.doi != "" %}<br>DOI: {{ pub.doi }}{% endif %}
-    {% if pub.url and pub.url != "" %}<br><a href="{{ pub.url }}">Link</a>{% endif %}
+  <div class="list-item publication-item">
+    <p>{{ pub.citation }}</p>
+    {% if pub.note and pub.note != "" %}
+      <p><span class="badge">{{ pub.note }}</span></p>
+    {% endif %}
+    {% if pub.url and pub.url != "" %}
+      <p><a href="{{ pub.url }}">DOI / Link</a></p>
+    {% endif %}
   </div>
 {% endfor %}
