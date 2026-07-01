@@ -36,6 +36,14 @@ a:hover {
   margin: 0 auto;
 }
 
+.site-main img:not(.member-photo):not(.profile-photo) {
+  display: block;
+  max-width: min(100%, 760px);
+  height: auto;
+  margin: 18px auto;
+  border-radius: 12px;
+}
+
 .site-header {
   border-bottom: 1px solid var(--border);
   background: #fff;
@@ -227,6 +235,28 @@ a:hover {
   margin: 2px 2px 2px 0;
 }
 
+.news-detail {
+  scroll-margin-top: 110px;
+  margin: 28px 0;
+}
+
+.news-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+
+.news-nav > div:last-child {
+  text-align: right;
+}
+
+.back-to-news {
+  margin-top: 18px;
+}
+
 .two-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -259,11 +289,16 @@ a:hover {
 
   .hero,
   .two-column,
-  .profile-hero {
+  .profile-hero,
+  .news-nav {
     grid-template-columns: 1fr;
   }
 
   .member-card {
     grid-template-columns: 1fr;
+  }
+
+  .news-nav > div:last-child {
+    text-align: left;
   }
 }
