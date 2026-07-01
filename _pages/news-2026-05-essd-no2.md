@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Our group published an ESSD paper on global surface NO2 changes"
+title: "May: Our group published an ESSD paper on nearly two decades of global surface NO2 changes"
 permalink: /news/2026-05-essd-no2/
 ---
 
