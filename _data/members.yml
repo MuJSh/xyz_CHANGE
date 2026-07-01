@@ -31,28 +31,6 @@ current:
       - "2017–2022, PhD, Nanjing University of Information Science & Technology"
       - "2013–2017, BS, Nanjing University of Information Science & Technology"
 
-  - name: "Na Zhao | 赵娜"
-    role: "Postdoctoral Fellow"
-    affiliation: "Shandong University"
-    email: "zhaona2023@sdu.edu.cn"
-    initials: "NZ"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/nazhao.jpg"
-    education:
-      - "2018–2022, PhD, Fudan University"
-      - "2015–2018, MS, Beijing University of Technology"
-      - "2011–2015, BS, Beijing University of Technology"
-
-  - name: "Jiangshan Mu | 牟江山"
-    role: "Postdoctoral Fellow"
-    affiliation: "Shandong University"
-    email: "mujiangshan0615@gmail.com"
-    initials: "JM"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/jsmu.jpg"
-    education:
-      - "2021–2025, PhD, Shandong University"
-      - "2018–2021, MS, Shandong University"
-      - "2014–2018, BS, Ocean University of China"
-
   - name: "Zhuyi Wang | 王竹依"
     role: "PhD Student"
     affiliation: "Shandong University"
@@ -82,15 +60,6 @@ current:
       - "2022–2025, MS, Shandong University"
       - "2018–2022, BS, Qingdao University of Technology"
 
-  - name: "Xuanying Ji | 吉烜莹"
-    role: "Master Student"
-    affiliation: "Shandong University"
-    email: "jxy15668462325@163.com"
-    initials: "XJ"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/xuanyingji1.jpg"
-    education:
-      - "2019–2023, BS, Shandong Agricultural University"
-
   - name: "Qionghui Zhou | 周琼珲"
     role: "Master Student"
     affiliation: "Shandong University"
@@ -110,6 +79,18 @@ current:
       - "2021–2025, BS, Shandong Agricultural University"
 
 alumni:
+  - name: "Jiangshan Mu | 牟江山"
+    role: "Former Postdoctoral Fellow"
+    now: ""
+
+  - name: "Na Zhao | 赵娜"
+    role: "Former Postdoctoral Fellow"
+    now: ""
+
+  - name: "Xuanying Ji | 吉烜莹"
+    role: "Former Master Student"
+    now: ""
+
   - name: "Zizhen Han"
     role: "Research Assistant in CHANGE, 2021–2022"
     now: "PhD student at Beijing University of Technology"
