@@ -48,7 +48,13 @@ permalink: /
   {% for item in site.data.news limit:3 %}
     <div class="list-item">
       <span class="badge">{{ item.date }}</span>
-      <p>{{ item.title }}</p>
+      <p>
+        {% if item.link and item.link != "" %}
+          <a href="{{ item.link }}">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </p>
     </div>
   {% endfor %}
   <p><a href="{{ '/news/' | relative_url }}">View all news</a></p>
