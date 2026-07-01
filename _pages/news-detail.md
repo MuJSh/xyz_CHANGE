@@ -33,6 +33,10 @@ permalink: /news-detail/
     {% endfor %}
   ];
 
+  const detailContent = {
+    '2025-10-01-new-paper-from-our-group': '<p>A collaboration paper between our group, Fudan University, and NAS member Prof. Drew Shindell from Duke University was published in <em>Proceedings of the National Academy of Sciences of the United States of America</em> (PNAS).</p><p>In this paper, we discussed premature mortality disparities across different income groups both between and within countries. We provide evidence that aging populations can exacerbate health risks in countries with low poverty rates, surpassing those in poorer countries by some measures. Moreover, health burdens are concentrated not only in affluent urban areas globally, but also among poorer rural populations in low-income countries.</p><p>These findings can help guide more equitable outcomes for currently underserved populations.</p><p><a href="https://www.pnas.org/doi/10.1073/pnas.2511394122">Read the paper</a></p>'
+  };
+
   const dateNode = document.getElementById('news-detail-date');
   const titleNode = document.getElementById('news-detail-title');
   const bodyNode = document.getElementById('news-detail-body');
@@ -62,7 +66,7 @@ permalink: /news-detail/
 
     dateNode.textContent = item.date;
     titleNode.textContent = item.title;
-    bodyNode.innerHTML = '<p>xxxx</p>';
+    bodyNode.innerHTML = detailContent[slug] || '<p>xxxx</p>';
 
     previousNode.innerHTML = previous
       ? '<a href="' + previous.link + '">← Previous<br><strong>' + previous.title + '</strong></a>'
