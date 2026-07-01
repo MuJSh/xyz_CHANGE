@@ -20,11 +20,3 @@ permalink: /members/qionghui-zhou/
 ## Education
 
 - 2020–2024, B.S., Henan University of Technology
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
