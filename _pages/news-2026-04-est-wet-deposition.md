@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Our group published an Environmental Science & Technology paper on wet deposition"
+title: "April: Our group published an Environmental Science & Technology paper on atmospheric deposition"
 permalink: /news/2026-04-est-wet-deposition/
 ---
 
