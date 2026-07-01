@@ -10,7 +10,7 @@ Atmospheric deposition is an important process connecting air pollution with eco
 
 The research team developed a high-resolution machine-learning simulation framework that integrates explainable modeling with Shapley additive explanations. By combining multi-source observational data with meteorological, emissions, and land-use information, the team constructed an atmospheric nitrogen and sulfur wet-deposition dataset at 0.1° × 0.1° resolution.
 
-![Machine-learning framework for atmospheric wet-deposition simulation and attribution](https://faculty.sdu.edu.cn/_resource/fileshow/dd48f7fa-e37d-48c4-968b-210b5802a044.png)
+![Machine-learning framework for atmospheric wet-deposition simulation and attribution]({{ '/assets/img/news/est-deposition.jpg' | relative_url }})
 
 *Machine-learning framework for atmospheric wet-deposition simulation and attribution.*
 
