@@ -37,7 +37,7 @@ a:hover {
   margin: 0 auto;
 }
 
-.site-main img:not(.member-photo):not(.profile-photo):not(.home-cover-photo) {
+.site-main img:not(.member-photo):not(.profile-photo):not(.home-cover-photo):not(.home-profile-photo) {
   display: block;
   max-width: min(100%, 760px);
   height: auto;
@@ -103,62 +103,70 @@ a:hover {
 
 .page-header h1,
 .hero h1,
-.home-hero h1 {
-  margin: 0 0 14px;
-  line-height: 1.16;
+.home-sidebar h1 {
+  margin: 0 0 12px;
+  line-height: 1.2;
 }
 
-.home-hero {
+.home-layout {
   display: grid;
-  grid-template-columns: minmax(320px, 0.95fr) minmax(0, 1.25fr);
+  grid-template-columns: 280px minmax(0, 1fr);
   gap: 34px;
-  align-items: stretch;
+  align-items: start;
+}
+
+.home-sidebar {
+  position: sticky;
+  top: 96px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 12px 30px rgba(31, 41, 51, 0.06);
+}
+
+.home-profile-photo {
+  width: 190px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #fff;
+  margin: 0 auto 18px;
+}
+
+.home-main section {
   margin-bottom: 34px;
 }
 
-.home-hero-image {
-  position: relative;
-  min-height: 360px;
+.home-main h2 {
+  margin: 0 0 14px;
+}
+
+.home-top-photo {
+  margin-bottom: 24px;
+}
+
+.home-top-photo .home-cover-photo {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  display: block;
   border-radius: 24px;
-  overflow: hidden;
   border: 1px solid var(--border);
-  background: var(--surface);
   box-shadow: 0 18px 42px rgba(31, 41, 51, 0.10);
 }
 
-.home-cover-photo {
-  width: 100%;
-  height: 100%;
-  min-height: 360px;
-  object-fit: cover;
-  display: block;
-}
-
-.home-hero-image::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(24, 63, 102, 0.02), rgba(24, 63, 102, 0.16));
-  pointer-events: none;
-}
-
-.home-hero-content {
+.home-intro-card {
+  margin-bottom: 36px;
+  padding: 28px;
   border: 1px solid var(--border);
-  border-radius: 24px;
-  padding: 34px;
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 18px 42px rgba(31, 41, 51, 0.08);
+  border-radius: 22px;
+  background: linear-gradient(135deg, #ffffff 0%, var(--surface-strong) 100%);
 }
 
-.home-hero-content h1 {
-  font-size: clamp(2rem, 4vw, 3.35rem);
-  letter-spacing: -0.035em;
-  color: var(--accent-dark);
-}
-
-.home-lead {
-  font-size: 1.15rem;
-  color: var(--text);
+.home-intro-card h2,
+.section-heading h2,
+.home-news-block h2,
+.home-join h2 {
   margin-top: 0;
 }
 
@@ -209,21 +217,6 @@ a:hover {
   background: var(--surface);
 }
 
-.home-intro-card {
-  margin-bottom: 36px;
-  padding: 28px;
-  border: 1px solid var(--border);
-  border-radius: 22px;
-  background: linear-gradient(135deg, #ffffff 0%, var(--surface-strong) 100%);
-}
-
-.home-intro-card h2,
-.section-heading h2,
-.home-news-block h2,
-.home-join h2 {
-  margin-top: 0;
-}
-
 .section-heading {
   margin-bottom: 16px;
 }
@@ -252,6 +245,23 @@ a:hover {
 .research-card p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.research-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #e9f1fa;
+  color: var(--accent-dark);
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .home-news-block {
@@ -473,7 +483,7 @@ a:hover {
     justify-content: flex-start;
   }
 
-  .home-hero,
+  .home-layout,
   .hero,
   .two-column,
   .profile-hero,
@@ -483,13 +493,17 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .home-hero-content {
-    padding: 24px;
+  .home-sidebar {
+    position: static;
+    text-align: left;
   }
 
-  .home-hero-image,
-  .home-cover-photo {
-    min-height: 260px;
+  .home-profile-photo {
+    margin-left: 0;
+  }
+
+  .home-top-photo .home-cover-photo {
+    max-height: 260px;
   }
 
   .member-card {
