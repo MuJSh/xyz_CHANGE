@@ -20,11 +20,3 @@ permalink: /members/zizhen-han/
 ## Education
 
 - xxxx
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
