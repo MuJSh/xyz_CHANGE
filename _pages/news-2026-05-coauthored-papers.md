@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Co-authored papers from our group were published"
+title: "May: Co-authored papers from our group"
 permalink: /news/2026-05-coauthored-papers/
 ---
 
