@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Congratulations to Hengqing Shen on publishing a paper"
+title: "December: Congratulations to Xuanying Ji on publishing her paper"
 permalink: /news/2025-12-hengqing-shen-paper/
 ---
 
