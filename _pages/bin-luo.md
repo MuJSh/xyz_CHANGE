@@ -22,11 +22,3 @@ permalink: /members/bin-luo/
 ## Education
 
 - 2018–2022, B.S., Xiangtan University
-
-## Publications
-
-- Luo B., Zhang Y., Tang T., Zhang H., Hu J., Mu J., Wang W., and Xue L.: Spatial-temporal patterns in anthropogenic and biomass burning emission contributions to air pollution and mortality burden changes in India from 1995 to 2014, Atmospheric Chemistry and Physics, 25, 4767–4783, 2025.
-
-## Conferences
-
-- xxxx
