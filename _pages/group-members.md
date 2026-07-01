@@ -41,7 +41,7 @@ permalink: /group-members/
       <div class="avatar">{{ member.initials }}</div>
     {% endif %}
     <div>
-      <h3>{{ member.name }}</h3>
+      <h3>{% if member.profile and member.profile != "" %}<a href="{{ member.profile }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
       <div class="meta">{{ member.role }}</div>
       {% if member.email and member.email != "" %}<p><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
       {% if member.interests %}
@@ -60,7 +60,7 @@ permalink: /group-members/
 
 {% for member in site.data.members.alumni %}
 <div class="list-item">
-  <strong>{{ member.name }}</strong><br>
+  <strong>{% if member.profile and member.profile != "" %}<a href="{{ member.profile }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</strong><br>
   <span class="meta">{{ member.role }}{% if member.now %} · Now: {{ member.now }}{% endif %}</span>
 </div>
 {% endfor %}
