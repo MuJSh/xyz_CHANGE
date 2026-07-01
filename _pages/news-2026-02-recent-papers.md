@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Recent papers from our group were published"
+title: "Jan-Feb: Recent papers from our group"
 permalink: /news/2026-02-recent-papers/
 ---
 
