@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Congratulations to Chengwen Niu on receiving key funding for a student innovation and entrepreneurship project"
+title: "December: Congratulations to Chengwen Niu on receiving key funding for a Student Innovation and Entrepreneurship Project"
 permalink: /news/2025-12-chengwen-niu-funding/
 ---
 
