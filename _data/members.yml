@@ -79,17 +79,21 @@ current:
       - "2021–2025, BS, Shandong Agricultural University"
 
 alumni:
-  - name: "Xuanying Ji | 吉烜莹"
-    role: "Former Master Student"
+  - name: "Xuanying Ji"
+    role: "Master Student in the group, 2023–2026"
     now: ""
 
-  - name: "Na Zhao | 赵娜"
-    role: "Former Postdoctoral Fellow"
+  - name: "Na Zhao"
+    role: "Postdoctoral Fellow in the group, 2022–2026"
     now: "Associate Professor at Qingdao University of Technology"
 
-  - name: "Jiangshan Mu | 牟江山"
-    role: "Former Postdoctoral Fellow"
+  - name: "Jiangshan Mu"
+    role: "PhD Student in the group, 2022–2025"
     now: "Postdoctoral Researcher at Duke University"
+
+  - name: "Kexin Zhang"
+    role: "Undergraduate Student in the group"
+    now: "Tsinghua Shenzhen International Graduate School"
 
   - name: "Zizhen Han"
     role: "Research Assistant in CHANGE, 2021–2022"
