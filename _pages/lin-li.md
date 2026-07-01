@@ -15,17 +15,9 @@ permalink: /members/lin-li/
 
 ## Research Areas
 
-- xxxx
+- Regional ozone pollution using the CMAQ air quality model, including ozone–precursor response relationships, ozone source apportionment, and attribution analysis of ozone concentration changes.
 
 ## Education
 
 - 2017–2022, Ph.D., Nanjing University of Information Science & Technology
 - 2013–2017, B.S., Nanjing University of Information Science & Technology
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
