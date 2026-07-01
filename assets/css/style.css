@@ -129,6 +129,33 @@ a:hover {
   font-weight: 700;
 }
 
+.profile-hero {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 24px;
+  align-items: center;
+  padding: 22px;
+  margin-bottom: 30px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+.profile-title {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -231,7 +258,8 @@ a:hover {
   }
 
   .hero,
-  .two-column {
+  .two-column,
+  .profile-hero {
     grid-template-columns: 1fr;
   }
 
