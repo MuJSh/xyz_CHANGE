@@ -19,11 +19,3 @@ permalink: /members/xuanying-ji/
 ## Education
 
 - 2019–2023, B.S., Shandong Agricultural University
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
