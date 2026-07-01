@@ -20,11 +20,3 @@ permalink: /members/kexin-zhang/
 ## Education
 
 - xxxx
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
