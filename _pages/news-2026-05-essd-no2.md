@@ -10,7 +10,7 @@ NO2 is an important atmospheric pollutant that affects air quality, ecosystems, 
 
 To address these challenges, the research team integrated multi-source big data and developed a global daily 0.1° × 0.1° surface NO2 concentration dataset for 2005–2023 based on the Air Transformer deep-learning framework. The dataset combines high spatial resolution, daily temporal continuity, and global coverage, substantially improving the accuracy of air-pollution exposure assessment.
 
-![Global mean surface NO2 concentrations and hotspot regions](https://faculty.sdu.edu.cn/_resource/fileshow/e6ffe85c-81a3-4bcb-92b6-ac272bd8e67a.png)
+![Global mean surface NO2 concentrations and hotspot regions]({{ '/assets/img/news/essd-no2.jpg' | relative_url }})
 
 *Global mean surface NO2 concentrations and hotspot regions.*
 
