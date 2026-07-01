@@ -20,11 +20,3 @@ permalink: /members/chengwen-niu/
 ## Education
 
 - 2021–2025, B.S., Shandong Agricultural University
-
-## Publications
-
-- xxxx
-
-## Conferences
-
-- xxxx
