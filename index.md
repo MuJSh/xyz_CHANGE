@@ -28,11 +28,6 @@ permalink: /
       <p>
         We integrate observations, satellite products, chemical transport modeling, climate modeling, health-impact assessment, and machine learning to support policy-relevant analysis for coordinated air pollution control, climate mitigation, and public health protection.
       </p>
-      <div class="hero-actions">
-        <a class="button-link" href="{{ '/group-members/' | relative_url }}">Group Members</a>
-        <a class="button-link secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a class="button-link secondary" href="{{ '/openings/' | relative_url }}">Openings</a>
-      </div>
     </section>
 
     <section>
@@ -50,7 +45,6 @@ permalink: /
 
     <section>
       <div class="section-heading">
-        <p class="eyebrow">Research</p>
         <h2>Research Areas</h2>
       </div>
       <div class="research-card-grid">
