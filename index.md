@@ -16,7 +16,11 @@ permalink: /
 
   <main class="home-main">
     <section class="home-top-photo">
-      <img class="home-cover-photo" src="{{ '/assets/img/news/change.jpg' | relative_url }}" alt="XYZ-CHANGE Group">
+      <div class="home-photo-carousel" aria-label="XYZ-CHANGE group photos">
+        <img class="home-cover-photo" src="{{ '/assets/img/news/change.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 1">
+        <img class="home-cover-photo" src="{{ '/assets/img/news/change2.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 2">
+      </div>
+      <p class="carousel-hint">Swipe or scroll to view more photos.</p>
     </section>
 
     <section class="home-intro-card">
