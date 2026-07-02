@@ -145,14 +145,47 @@ a:hover {
   margin-bottom: 24px;
 }
 
+.home-photo-carousel {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 24px;
+  padding-bottom: 6px;
+}
+
+.home-photo-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.home-photo-carousel::-webkit-scrollbar-track {
+  background: #edf3f9;
+  border-radius: 999px;
+}
+
+.home-photo-carousel::-webkit-scrollbar-thumb {
+  background: #b8cde0;
+  border-radius: 999px;
+}
+
 .home-top-photo .home-cover-photo {
+  flex: 0 0 100%;
   width: 100%;
-  max-height: 360px;
+  height: 360px;
   object-fit: cover;
   display: block;
+  scroll-snap-align: start;
   border-radius: 24px;
   border: 1px solid var(--border);
   box-shadow: 0 18px 42px rgba(31, 41, 51, 0.10);
+}
+
+.carousel-hint {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  text-align: right;
 }
 
 .home-intro-card {
@@ -503,7 +536,11 @@ a:hover {
   }
 
   .home-top-photo .home-cover-photo {
-    max-height: 260px;
+    height: 260px;
+  }
+
+  .carousel-hint {
+    text-align: left;
   }
 
   .member-card {
