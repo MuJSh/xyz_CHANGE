@@ -30,8 +30,6 @@ navigation:
     url: "/publications/"
   - title: "News"
     url: "/news/"
-  - title: "Conferences"
-    url: "/conferences/"
   - title: "Openings"
     url: "/openings/"
 
