@@ -16,11 +16,11 @@ permalink: /
 
   <main class="home-main">
     <section class="home-top-photo">
-      <div class="home-photo-carousel" aria-label="XYZ-CHANGE group photos">
+      <div class="home-photo-carousel" id="homePhotoCarousel" aria-label="XYZ-CHANGE group photos">
         <img class="home-cover-photo" src="{{ '/assets/img/news/change.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 1">
         <img class="home-cover-photo" src="{{ '/assets/img/news/change2.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 2">
       </div>
-      <p class="carousel-hint">Swipe or scroll to view more photos.</p>
+      <p class="carousel-hint">Photos rotate automatically. Swipe or scroll to view manually.</p>
     </section>
 
     <section class="home-intro-card">
@@ -106,3 +106,23 @@ permalink: /
     </section>
   </main>
 </section>
+
+<script>
+(function () {
+  const carousel = document.getElementById('homePhotoCarousel');
+  if (!carousel) return;
+
+  const slides = carousel.querySelectorAll('.home-cover-photo');
+  if (slides.length < 2) return;
+
+  let index = 0;
+
+  setInterval(function () {
+    index = (index + 1) % slides.length;
+    carousel.scrollTo({
+      left: slides[index].offsetLeft,
+      behavior: 'smooth'
+    });
+  }, 4000);
+})();
+</script>
