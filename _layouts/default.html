@@ -16,11 +16,24 @@
     {% include footer.html %}
     <script>
       (function () {
+        const standaloneLinks = {
+          '2025-10-01-new-paper-from-our-group': '{{ '/news/2025-10-pnas-mortality-disparities/' | relative_url }}',
+          '2025-09-01-another-group-photo': '{{ '/news/2025-09-group-photo/' | relative_url }}',
+          '2025-08-01-congrats-to-dr-na-zhao-on-receiving-the-national-natural-science-foundation-of-china-young-scientists-fund': '{{ '/news/2025-08-na-zhao-nsfc/' | relative_url }}',
+          '2025-05-01-new-paper-from-our-group-member': '{{ '/news/2025-05-bin-luo-acp-paper/' | relative_url }}',
+          '2025-03-01-our-group-attended-the-ai4am-workshop-at-fudan-university': '{{ '/news/2025-03-ai4am-workshop/' | relative_url }}',
+          '2025-01-01-pi-dr-zhang-attended-the-inaugural-meeting-of-the-ecological-environment-ai-committee-and-was-elected-executive-committee-member': '{{ '/news/2025-01-ecological-environment-ai-committee/' | relative_url }}'
+        };
+
         const newsItems = [
           {% for item in site.data.news %}
-          { title: {{ item.title | jsonify }}, link: {{ item.link | jsonify }} }{% unless forloop.last %},{% endunless %}
+          { title: {{ item.title | jsonify }}, slug: {{ item.slug | jsonify }}, link: {{ item.link | jsonify }} }{% unless forloop.last %},{% endunless %}
           {% endfor %}
         ].filter(function (item) { return item.link && item.link !== ''; });
+
+        function effectiveLink(item) {
+          return standaloneLinks[item.slug] || item.link;
+        }
 
         function normalizePath(url) {
           const a = document.createElement('a');
@@ -30,7 +43,7 @@
 
         const currentPath = window.location.pathname.replace(/\/$/, '');
         const currentIndex = newsItems.findIndex(function (item) {
-          return normalizePath(item.link) === currentPath;
+          return normalizePath(effectiveLink(item)) === currentPath || normalizePath(item.link) === currentPath;
         });
 
         if (currentIndex < 0 || document.querySelector('.news-page-nav')) return;
@@ -41,10 +54,10 @@
         nav.className = 'news-page-nav';
         nav.innerHTML =
           '<div>' +
-          (previous ? '<a href="' + previous.link + '">← Previous<br><strong>' + previous.title + '</strong></a>' : '') +
+          (previous ? '<a href="' + effectiveLink(previous) + '">← Previous<br><strong>' + previous.title + '</strong></a>' : '') +
           '</div>' +
           '<div>' +
-          (next ? '<a href="' + next.link + '">Next →<br><strong>' + next.title + '</strong></a>' : '') +
+          (next ? '<a href="' + effectiveLink(next) + '">Next →<br><strong>' + next.title + '</strong></a>' : '') +
           '</div>' +
           '<p><a href="{{ '/news/' | relative_url }}">Back to all news</a></p>';
 
