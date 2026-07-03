@@ -16,11 +16,14 @@ permalink: /
 
   <main class="home-main">
     <section class="home-top-photo">
-      <div class="home-photo-carousel" id="homePhotoCarousel" aria-label="XYZ-CHANGE group photos">
-        <img class="home-cover-photo" src="{{ '/assets/img/news/change.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 1">
-        <img class="home-cover-photo" src="{{ '/assets/img/news/change2.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 2">
+      <div class="home-photo-carousel-shell">
+        <button class="home-carousel-arrow home-carousel-arrow-left" type="button" aria-label="Previous group photo">‹</button>
+        <div class="home-photo-carousel" id="homePhotoCarousel" aria-label="XYZ-CHANGE group photos">
+          <img class="home-cover-photo" src="{{ '/assets/img/news/change.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 1">
+          <img class="home-cover-photo" src="{{ '/assets/img/news/change2.jpg' | relative_url }}" alt="XYZ-CHANGE Group photo 2">
+        </div>
+        <button class="home-carousel-arrow home-carousel-arrow-right" type="button" aria-label="Next group photo">›</button>
       </div>
-      <p class="carousel-hint">Photos rotate automatically. Swipe or scroll to view manually.</p>
     </section>
 
     <section class="home-intro-card">
@@ -107,22 +110,98 @@ permalink: /
   </main>
 </section>
 
+<style>
+.home-photo-carousel-shell {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.home-photo-carousel {
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.home-photo-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.home-carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75);
+  color: #183f66;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 22px rgba(31, 41, 51, 0.18);
+}
+
+.home-carousel-arrow:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.home-carousel-arrow-left {
+  left: 16px;
+}
+
+.home-carousel-arrow-right {
+  right: 16px;
+}
+</style>
+
 <script>
 (function () {
   const carousel = document.getElementById('homePhotoCarousel');
   if (!carousel) return;
 
   const slides = carousel.querySelectorAll('.home-cover-photo');
+  const prevButton = document.querySelector('.home-carousel-arrow-left');
+  const nextButton = document.querySelector('.home-carousel-arrow-right');
   if (slides.length < 2) return;
 
   let index = 0;
+  let timer = null;
 
-  setInterval(function () {
-    index = (index + 1) % slides.length;
+  function showSlide(newIndex) {
+    index = (newIndex + slides.length) % slides.length;
     carousel.scrollTo({
       left: slides[index].offsetLeft,
       behavior: 'smooth'
     });
-  }, 4000);
+  }
+
+  function startAutoPlay() {
+    timer = setInterval(function () {
+      showSlide(index + 1);
+    }, 4000);
+  }
+
+  function resetAutoPlay() {
+    if (timer) clearInterval(timer);
+    startAutoPlay();
+  }
+
+  if (prevButton) {
+    prevButton.addEventListener('click', function () {
+      showSlide(index - 1);
+      resetAutoPlay();
+    });
+  }
+
+  if (nextButton) {
+    nextButton.addEventListener('click', function () {
+      showSlide(index + 1);
+      resetAutoPlay();
+    });
+  }
+
+  startAutoPlay();
 })();
 </script>
