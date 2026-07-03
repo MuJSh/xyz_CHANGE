@@ -3,18 +3,25 @@
   if (!carousel || carousel.dataset.extendedCarousel === 'true') return;
   carousel.dataset.extendedCarousel = 'true';
 
-  const change3Path = '/xyz_CHANGE/assets/img/news/change3.jpg';
-  const existingChange3 = Array.from(carousel.querySelectorAll('img')).some(function (img) {
-    return img.getAttribute('src') && img.getAttribute('src').indexOf('change3.jpg') !== -1;
-  });
+  const extraPhotos = [
+    { file: 'change3.jpg', alt: 'XYZ-CHANGE Group photo 3' },
+    { file: 'change4.jpg', alt: 'XYZ-CHANGE Group photo 4' },
+    { file: 'change5.jpg', alt: 'XYZ-CHANGE Group photo 5' }
+  ];
 
-  if (!existingChange3) {
-    const thirdPhoto = document.createElement('img');
-    thirdPhoto.className = 'home-cover-photo';
-    thirdPhoto.src = change3Path;
-    thirdPhoto.alt = 'XYZ-CHANGE Group photo 3';
-    carousel.appendChild(thirdPhoto);
-  }
+  extraPhotos.forEach(function (photo) {
+    const alreadyExists = Array.from(carousel.querySelectorAll('img')).some(function (img) {
+      return img.getAttribute('src') && img.getAttribute('src').indexOf(photo.file) !== -1;
+    });
+
+    if (!alreadyExists) {
+      const newPhoto = document.createElement('img');
+      newPhoto.className = 'home-cover-photo';
+      newPhoto.src = '/xyz_CHANGE/assets/img/news/' + photo.file;
+      newPhoto.alt = photo.alt;
+      carousel.appendChild(newPhoto);
+    }
+  });
 
   const nativeScrollTo = carousel.scrollTo ? carousel.scrollTo.bind(carousel) : null;
   let allowManagedScroll = false;
