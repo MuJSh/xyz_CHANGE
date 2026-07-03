@@ -6,7 +6,8 @@
   const extraPhotos = [
     { file: 'change3.jpg', alt: 'XYZ-CHANGE Group photo 3' },
     { file: 'change4.jpg', alt: 'XYZ-CHANGE Group photo 4' },
-    { file: 'change5.jpg', alt: 'XYZ-CHANGE Group photo 5' }
+    { file: 'change5.jpg', alt: 'XYZ-CHANGE Group photo 5' },
+    { file: 'change6.jpg', alt: 'XYZ-CHANGE Group photo 6' }
   ];
 
   extraPhotos.forEach(function (photo) {
