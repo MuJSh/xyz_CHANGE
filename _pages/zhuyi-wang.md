@@ -21,3 +21,11 @@ permalink: /members/zhuyi-wang/
 
 - 2020–2023, M.S., China University of Petroleum (East China)
 - 2016–2020, B.S., Shandong Jianzhu University
+
+## Publications (selected)
+
+- To be updated.
+
+## Related Links
+
+- [Google Scholar](https://scholar.google.com/scholar?q=Zhuyi+Wang)
