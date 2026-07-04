@@ -32,4 +32,6 @@ permalink: /members/jiangshan-mu/
 
 ## Related Links
 
-- To be updated.
+- [Personal Page](https://jiangshanmu.github.io/mujsh.github.io/)
+- [ResearchGate](https://www.researchgate.net/profile/Jiangshan-Mu-2)
+- [Google Scholar](https://scholar.google.com/citations?user=fmu5BbMAAAAJ&hl=zh-CN&oi=sra)
