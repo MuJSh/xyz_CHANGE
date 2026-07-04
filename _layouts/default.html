@@ -13,6 +13,24 @@
     {% include header.html %}
     <main class="site-main">
       {{ content }}
+      {% assign add_member_extra = false %}
+      {% if page.url contains '/members/' %}
+        {% unless page.url == '/members/yuqiang-zhang/' %}
+          {% unless page.url == '/members/jingjing-ma/' %}
+            {% unless content contains 'Publications (selected)' %}
+              {% assign add_member_extra = true %}
+            {% endunless %}
+          {% endunless %}
+        {% endunless %}
+      {% endif %}
+      {% if add_member_extra %}
+      <section class="profile-extra-sections">
+        <h2>Publications (selected)</h2>
+        <p>To be updated.</p>
+        <h2>Related Links</h2>
+        <p><a href="https://scholar.google.com/scholar?q={{ page.title | replace: ' ', '+' }}">Google Scholar</a></p>
+      </section>
+      {% endif %}
     </main>
     {% include footer.html %}
     <script>
@@ -64,30 +82,6 @@
 
         const main = document.querySelector('.site-main');
         if (main) main.appendChild(nav);
-      })();
-    </script>
-    <script>
-      (function () {
-        const currentPath = window.location.pathname.replace(/\/$/, '');
-        if (!/\/members\/[^/]+$/.test(currentPath)) return;
-        if (currentPath.endsWith('/members/yuqiang-zhang') || currentPath.endsWith('/members/jingjing-ma')) return;
-
-        const main = document.querySelector('.site-main');
-        if (!main) return;
-        if (main.textContent.indexOf('Publications (selected)') !== -1) return;
-
-        const nameElement = document.querySelector('.profile-hero h1') || document.querySelector('.site-main h1');
-        const memberName = nameElement ? nameElement.textContent.trim() : 'member';
-        const scholarUrl = 'https://scholar.google.com/scholar?q=' + encodeURIComponent(memberName);
-
-        const extra = document.createElement('section');
-        extra.className = 'profile-extra-sections';
-        extra.innerHTML =
-          '<h2>Publications (selected)</h2>' +
-          '<p>To be updated.</p>' +
-          '<h2>Related Links</h2>' +
-          '<p><a href="' + scholarUrl + '">Google Scholar</a></p>';
-        main.appendChild(extra);
       })();
     </script>
     <script src="{{ '/assets/js/home-carousel.js' | relative_url }}"></script>
