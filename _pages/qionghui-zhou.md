@@ -19,4 +19,12 @@ permalink: /members/qionghui-zhou/
 
 ## Education
 
-- 2020–2024, B.S., Henan University of Technology
+- 2020-2024, B.S., Henan University of Technology
+
+## Publications (selected)
+
+- To be updated.
+
+## Related Links
+
+- [ResearchGate](https://www.researchgate.net/profile/Qionghui-Zhou)
