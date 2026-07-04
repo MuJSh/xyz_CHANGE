@@ -28,3 +28,5 @@ permalink: /members/qionghui-zhou/
 ## Related Links
 
 - [ResearchGate](https://www.researchgate.net/profile/Qionghui-Zhou)
+
+<!-- rebuild qionghui profile -->
