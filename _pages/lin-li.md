@@ -24,7 +24,7 @@ permalink: /members/lin-li/
 
 ## Publications (selected)
 
-- To be updated.
+- Li, L., Li, J., Qin, M. et al. Variations in summertime ozone in Nanjing between 2015 and 2020: roles of meteorology, radical chain length and ozone production efficiency. *Frontiers of Environmental Science & Engineering*, 18, 137 (2024). <https://doi.org/10.1007/s11783-024-1897-z>
 
 ## Related Links
 
