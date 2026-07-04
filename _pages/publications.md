@@ -6,14 +6,23 @@ permalink: /publications/
 
 <p class="publications-note">An asterisk after an author name denotes the corresponding author. Group members are shown in bold.</p>
 
-{% assign publications_by_year = site.data.publications | group_by: "year" %}
-{% for year_group in publications_by_year %}
+{% assign current_year = "" %}
+{% assign first_year = true %}
+{% for pub in site.data.publications %}
+{% assign pub_year = pub.year | append: "" %}
+{% if pub_year != current_year %}
+{% unless first_year %}
+  </div>
+</details>
+{% endunless %}
+{% assign first_year = false %}
+{% assign current_year = pub_year %}
 <details class="publication-year-block" open>
   <summary>
-    <span class="publication-year-title">{{ year_group.name }}</span>
+    <span class="publication-year-title">{{ current_year }}</span>
   </summary>
   <div class="publication-year-list">
-    {% for pub in year_group.items %}
+{% endif %}
     {% assign citation = pub.citation %}
     <div class="list-item publication-item">
       <p>{{ citation }}</p>
@@ -24,10 +33,11 @@ permalink: /publications/
       <p><a href="{{ pub.url }}">DOI / Link</a></p>
       {% endif %}
     </div>
-    {% endfor %}
+{% endfor %}
+{% unless first_year %}
   </div>
 </details>
-{% endfor %}
+{% endunless %}
 
 <style>
 .publications-note {
