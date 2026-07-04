@@ -5,10 +5,10 @@ permalink: /members/zhou-liu/
 ---
 
 <div class="profile-hero">
-  <div class="avatar">ZL</div>
+  <img class="profile-photo" src="{{ '/assets/img/news/LZ.jpg' | relative_url }}" alt="Zhou Liu">
   <div>
     <h1>Zhou Liu</h1>
-    <p class="profile-title">Research Assistant in CHANGE, 2021–2022</p>
+    <p class="profile-title">Research Assistant in CHANGE, 2021-2022</p>
     <p class="meta">Now: PhD student at Fudan University</p>
   </div>
 </div>
