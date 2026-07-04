@@ -5,7 +5,7 @@ permalink: /members/kexin-zhang/
 ---
 
 <div class="profile-hero">
-  <div class="avatar">KZ</div>
+  <img class="profile-photo" src="{{ '/assets/img/news/zkx.jpg' | relative_url }}" alt="Kexin Zhang">
   <div>
     <h1>Kexin Zhang</h1>
     <p class="profile-title">Undergraduate Student in CHANGE</p>
@@ -19,5 +19,5 @@ permalink: /members/kexin-zhang/
 
 ## Education
 
-- 2023-now, Ph.D., Tsinghua Shenzhen International Graduate School
+- 2023-present, Ph.D., Tsinghua Shenzhen International Graduate School
 - 2019-2023, B.S., Shandong University
