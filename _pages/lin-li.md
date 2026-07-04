@@ -21,3 +21,11 @@ permalink: /members/lin-li/
 
 - 2017–2022, Ph.D., Nanjing University of Information Science & Technology
 - 2013–2017, B.S., Nanjing University of Information Science & Technology
+
+## Publications (selected)
+
+- To be updated.
+
+## Related Links
+
+- [Google Scholar](https://scholar.google.com/scholar?q=Lin+Li)
