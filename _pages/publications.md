@@ -4,23 +4,112 @@ title: "Publications"
 permalink: /publications/
 ---
 
-An asterisk after an author name denotes the corresponding author. Group members are shown in bold.
+<p class="publications-note">An asterisk after an author name denotes the corresponding author. Group members are shown in bold.</p>
 
-{% assign current_year = "" %}
-{% for pub in site.data.publications %}
-{% assign pub_year = pub.year | append: "" %}
-{% if pub_year != current_year %}
-{% assign current_year = pub_year %}
-<h2>{{ current_year }}</h2>
-{% endif %}
-{% assign citation = pub.citation %}
-<div class="list-item publication-item">
-<p>{{ citation }}</p>
-{% if pub.note and pub.note != "" %}
-<p><span class="badge">{{ pub.note }}</span></p>
-{% endif %}
-{% if pub.url and pub.url != "" %}
-<p><a href="{{ pub.url }}">DOI / Link</a></p>
-{% endif %}
-</div>
+{% assign publications_by_year = site.data.publications | group_by: "year" %}
+{% for year_group in publications_by_year %}
+<details class="publication-year-block" open>
+  <summary>
+    <span class="publication-year-title">{{ year_group.name }}</span>
+    <span class="publication-year-count">{{ year_group.items | size }} publications</span>
+  </summary>
+  <div class="publication-year-list">
+    {% for pub in year_group.items %}
+    {% assign citation = pub.citation %}
+    <div class="list-item publication-item">
+      <p>{{ citation }}</p>
+      {% if pub.note and pub.note != "" %}
+      <p><span class="badge">{{ pub.note }}</span></p>
+      {% endif %}
+      {% if pub.url and pub.url != "" %}
+      <p><a href="{{ pub.url }}">DOI / Link</a></p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</details>
 {% endfor %}
+
+<style>
+.publications-note {
+  margin: 0 0 22px;
+  color: var(--muted);
+}
+
+.publication-year-block {
+  margin: 0 0 18px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 10px 26px rgba(31, 41, 51, 0.05);
+  overflow: hidden;
+}
+
+.publication-year-block summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 16px 20px;
+  cursor: pointer;
+  list-style: none;
+  background: linear-gradient(135deg, #ffffff 0%, #eef5fb 100%);
+}
+
+.publication-year-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.publication-year-block summary::after {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  background: #e9f1fa;
+  color: var(--accent-dark);
+  font-weight: 800;
+  flex: 0 0 auto;
+}
+
+.publication-year-block[open] summary::after {
+  content: "-";
+}
+
+.publication-year-title {
+  color: var(--accent-dark);
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.publication-year-count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 650;
+}
+
+.publication-year-list {
+  padding: 2px 20px 4px;
+}
+
+.publication-year-list .publication-item:last-child {
+  border-bottom: 0;
+}
+
+.publication-item p:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 780px) {
+  .publication-year-block summary {
+    align-items: flex-start;
+  }
+
+  .publication-year-count {
+    display: none;
+  }
+}
+</style>
