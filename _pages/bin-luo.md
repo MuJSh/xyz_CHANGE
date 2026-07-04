@@ -25,8 +25,8 @@ permalink: /members/bin-luo/
 
 ## Publications (selected)
 
-- To be updated.
+- Luo, B., Zhang, Y., Tang, T., Zhang, H., Hu, J., Mu, J., Wang, W., and Xue, L.: Spatial-temporal patterns in anthropogenic and biomass burning emission contributions to air pollution and mortality burden changes in India from 1995 to 2014, *Atmospheric Chemistry and Physics*, 25, 4767-4783, <https://doi.org/10.5194/acp-25-4767-2025>, 2025.
 
 ## Related Links
 
-- [Google Scholar](https://scholar.google.com/scholar?q=Bin+Luo)
+- [ResearchGate](https://www.researchgate.net/profile/Bin-Luo-42)
