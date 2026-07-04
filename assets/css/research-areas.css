@@ -47,6 +47,34 @@
   line-height: 1.58;
 }
 
+.home-join p:last-child {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.home-join p:last-child a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 15px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-join p:last-child a::after {
+  content: " →";
+}
+
+.home-join p:last-child a:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #ffffff;
+}
+
 @media (max-width: 780px) {
   .research-card-grid {
     grid-template-columns: 1fr;
