@@ -10,10 +10,6 @@ permalink: /openings/
   <p>
     We welcome motivated researchers and students working at the intersection of atmospheric chemistry, air quality, climate, health, satellite remote sensing, chemical transport modeling, and machine learning for environmental applications.
   </p>
-  <div class="openings-actions">
-    <a class="button-link" href="mailto:Yuqiang.Zhang@sdu.edu.cn">Contact Prof. Zhang</a>
-    <a class="button-link secondary" href="{{ '/' | relative_url }}#research-areas">View Research Areas</a>
-  </div>
 </section>
 
 <section class="opening-card-grid">
@@ -55,15 +51,11 @@ permalink: /openings/
     <p class="openings-kicker">Contact</p>
     <h2>Interested in joining us?</h2>
     <p>
-      Please send your CV, transcripts, and a short statement of research interests to Prof. Yuqiang Zhang.
+      We are committed to building an open, collaborative, and interdisciplinary research environment.
     </p>
   </div>
   <a class="button-link" href="mailto:Yuqiang.Zhang@sdu.edu.cn">Send Email</a>
 </section>
-
-<p class="openings-closing">
-  We are committed to building an open, collaborative, and interdisciplinary research environment.
-</p>
 
 <style>
 .openings-hero {
@@ -91,13 +83,6 @@ permalink: /openings/
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-}
-
-.openings-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 20px;
 }
 
 .button-link.secondary {
@@ -222,16 +207,6 @@ permalink: /openings/
   color: #183f66;
   border-color: #ffffff;
   flex: 0 0 auto;
-}
-
-.openings-closing {
-  margin: 20px 0 0;
-  padding: 18px 22px;
-  border-left: 4px solid var(--accent);
-  border-radius: 14px;
-  background: #f8fbfd;
-  color: #465568;
-  font-weight: 650;
 }
 
 @media (max-width: 780px) {
