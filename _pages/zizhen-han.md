@@ -5,7 +5,7 @@ permalink: /members/zizhen-han/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="https://mujsh.github.io/xyz_CHANGE/assets/img/news/HZZ.jpg" alt="Zizhen Han">
+  <img class="profile-photo" src="/xyz_CHANGE/assets/img/news/HZZ.jpg" alt="Zizhen Han">
   <div>
     <h1>Zizhen Han</h1>
     <p class="profile-title">Research Assistant in CHANGE, 2021-2022</p>
@@ -15,8 +15,8 @@ permalink: /members/zizhen-han/
 
 ## Research Areas
 
-- xxxx
+- To be updated.
 
 ## Education
 
-- xxxx
+- To be updated.
