@@ -22,3 +22,11 @@ permalink: /members/bin-luo/
 ## Education
 
 - 2018–2022, B.S., Xiangtan University
+
+## Publications (selected)
+
+- To be updated.
+
+## Related Links
+
+- [Google Scholar](https://scholar.google.com/scholar?q=Bin+Luo)
