@@ -5,7 +5,7 @@ permalink: /members/xuanying-ji/
 ---
 
 <div class="profile-hero">
-  <div class="avatar">XJ</div>
+  <img class="profile-photo" src="{{ '/assets/img/news/JXY.jpg' | relative_url }}" alt="Xuanying Ji">
   <div>
     <h1>Xuanying Ji</h1>
     <p class="profile-title">Master Student in CHANGE, 2023-2026</p>
