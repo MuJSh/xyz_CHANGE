@@ -5,7 +5,7 @@ permalink: /members/zhou-liu/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/news/LZ.jpg' | relative_url }}" alt="Zhou Liu">
+  <img class="profile-photo" src="https://mujsh.github.io/xyz_CHANGE/assets/img/news/LZ.jpg" alt="Zhou Liu">
   <div>
     <h1>Zhou Liu</h1>
     <p class="profile-title">Research Assistant in CHANGE, 2021-2022</p>
@@ -15,8 +15,8 @@ permalink: /members/zhou-liu/
 
 ## Research Areas
 
-- xxxx
+- To be updated.
 
 ## Education
 
-- xxxx
+- To be updated.
