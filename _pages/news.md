@@ -100,7 +100,9 @@ permalink: /news/
 
   .news-date-badge {
     justify-content: flex-start;
-    width: fit-content;
+    width: auto;
   }
 }
 </style>
+
+<!-- rebuild news cards -->
