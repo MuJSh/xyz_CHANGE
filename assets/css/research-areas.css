@@ -66,7 +66,7 @@
 }
 
 .home-join p:last-child a::after {
-  content: " →";
+  content: " ->";
 }
 
 .home-join p:last-child a:hover {
@@ -80,3 +80,5 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* rebuild 9 */
