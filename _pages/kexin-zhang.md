@@ -19,4 +19,5 @@ permalink: /members/kexin-zhang/
 
 ## Education
 
-- xxxx
+- 2023-now, Ph.D., Tsinghua Shenzhen International Graduate School
+- 2019-2023, B.S., Shandong University
