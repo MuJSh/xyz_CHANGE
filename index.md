@@ -115,6 +115,23 @@ permalink: /
 </section>
 
 <style>
+.home-news-block .news-row {
+  align-items: center;
+}
+
+.home-news-block .news-date {
+  display: inline-block;
+  min-width: 88px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #e9f1fa;
+  color: #183f66;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+}
+
 .home-photo-carousel-shell {
   position: relative;
   border-radius: 24px;
