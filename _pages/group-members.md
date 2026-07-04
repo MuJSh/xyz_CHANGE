@@ -60,7 +60,7 @@ permalink: /group-members/
 
 {% for member in site.data.members.alumni %}
 <div class="list-item">
-  <strong>{{ member.name }}</strong><br>
+  <strong>{% if member.profile and member.profile != "" %}<a href="{{ member.profile }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</strong><br>
   <span class="meta">{{ member.role }}{% if member.now %} · Now: {{ member.now }}{% endif %}</span>
 </div>
 {% endfor %}
