@@ -19,5 +19,14 @@ permalink: /members/zhaoqi-gao/
 
 ## Education
 
-- 2022–2025, M.S., Shandong University
-- 2018–2022, B.S., Qingdao University of Technology
+- 2022-2025, M.S., Shandong University
+- 2018-2022, B.S., Qingdao University of Technology
+
+## Publications (selected)
+
+- Gao, Z., Li, L., Liu, Z., et al. Impact of marine chlorine emissions on secondary organic aerosols in North China Plain. *Environmental Pollution*, 2025, 381, 126524.
+- Gao, Z., and Zhou, X. A review of the CAMx, CMAQ, WRF-Chem and NAQPMS models: Application, evaluation and uncertainty factors. *Environmental Pollution*, 2024, 343, 123183.
+
+## Related Links
+
+- [ResearchGate](https://www.researchgate.net/profile/Zhaoqi-Gao-3)
