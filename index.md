@@ -37,7 +37,7 @@ permalink: /
       </p>
     </section>
 
-    <section class="home-about-prof">
+    <section>
       <h2>About Prof. Zhang</h2>
       <p>
         Dr. Yuqiang Zhang is a Professor and doctoral supervisor at the Environment Research Institute, Shandong University. He was selected for the National Overseas High-Level Young Talents Program and recognized as a Distinguished Young and Middle-Aged Scholar of Shandong University.
@@ -45,14 +45,14 @@ permalink: /
       <p>
         His research integrates global and regional climate models, chemical transport models, high-resolution satellite retrievals, and health-impact assessment to investigate carbon neutrality pathways, air quality attainment, transboundary pollution transport, and climate-related health risks.
       </p>
-      <p class="profile-more-link"><a href="{{ '/members/yuqiang-zhang/' | relative_url }}">Read full profile →</a></p>
+      <p><strong><a href="{{ '/members/yuqiang-zhang/' | relative_url }}">Read full profile →</a></strong></p>
     </section>
 
     <section>
       <div class="section-heading">
         <h2>Research Areas</h2>
       </div>
-      <div class="research-card-grid home-research-grid">
+      <div class="research-card-grid">
         <div class="research-card">
           <h3>Atmospheric Deposition</h3>
           <p>Changes in wet and dry atmospheric deposition and their environmental implications.</p>
@@ -69,9 +69,9 @@ permalink: /
           <h3>Machine Learning</h3>
           <p>Interpretable machine learning for environmental datasets, emissions, exposure, and atmospheric processes.</p>
         </div>
-        <div class="research-card research-card-featured">
+        <div class="research-card">
           <h3>Climate, Pollution, and Health</h3>
-          <p>Connecting air pollution, climate change, and human health under current and future scenarios.</p>
+          <p>Interactions among air pollution, climate change, and human health under current and future scenarios.</p>
         </div>
       </div>
     </section>
@@ -103,81 +103,12 @@ permalink: /
       <p>
         We welcome students and collaborators interested in atmospheric chemistry, air pollution, climate-health interactions, satellite remote sensing, chemical transport modeling, and machine learning for environmental applications.
       </p>
-      <p class="join-action"><a class="button-link" href="{{ '/openings/' | relative_url }}">See openings →</a></p>
+      <p><a href="{{ '/openings/' | relative_url }}">See openings</a></p>
     </section>
   </main>
 </section>
 
 <style>
-.home-about-prof {
-  padding-bottom: 2px;
-}
-
-.profile-more-link {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-
-.home-research-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.home-research-grid .research-card {
-  min-height: 158px;
-}
-
-.research-card-featured {
-  grid-column: span 2;
-  background: linear-gradient(135deg, #ffffff 0%, #eef5fb 100%);
-  border-color: #d8e7f4;
-}
-
-.home-news-block .news-date {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  min-width: 88px;
-  padding: 4px 9px;
-  border-radius: 999px;
-  background: #e9f1fa;
-  color: #183f66;
-  font-size: 0.78rem;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.home-news-block .news-row {
-  align-items: center;
-}
-
-.home-join {
-  position: relative;
-  overflow: hidden;
-}
-
-.home-join::after {
-  content: "";
-  position: absolute;
-  right: -70px;
-  bottom: -70px;
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  background: rgba(36, 90, 141, 0.06);
-}
-
-.home-join > * {
-  position: relative;
-  z-index: 1;
-}
-
-.join-action {
-  margin-top: 18px;
-  margin-bottom: 0;
-}
-
 .home-photo-carousel-shell {
   position: relative;
   border-radius: 24px;
@@ -220,16 +151,6 @@ permalink: /
 
 .home-carousel-arrow-right {
   right: 16px;
-}
-
-@media (max-width: 780px) {
-  .home-research-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .research-card-featured {
-    grid-column: span 1;
-  }
 }
 </style>
 
