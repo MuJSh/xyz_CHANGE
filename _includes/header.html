@@ -1,21 +1,116 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a class="site-brand" href="{{ '/' | relative_url }}" style="display: flex; align-items: center; gap: 14px; color: inherit; text-decoration: none;">
-      <span class="brand-logo-frame" style="display: inline-flex; align-items: center; justify-content: center; height: 46px; min-width: 120px; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 14px; background: linear-gradient(135deg, #ffffff 0%, #f3f8fc 100%); box-shadow: 0 8px 22px rgba(31, 41, 51, 0.06);">
-        <img class="sdu-header-logo" src="{{ '/assets/img/news/sdulogo.png' | relative_url }}" alt="Shandong University logo" style="display: block; width: 108px; height: auto; max-height: 26px; object-fit: contain;">
-      </span>
-      <span class="site-title" style="position: relative; padding-left: 15px; border-left: 1px solid #d7e1ec;">
-        <span style="display: flex; align-items: center; gap: 9px; font-size: 1.04rem; font-weight: 800; letter-spacing: 0.01em; color: #1f2933;">
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <img class="sdu-header-logo" src="{{ '/assets/img/news/sdulogo.png' | relative_url }}" alt="Shandong University logo">
+      <span class="site-title site-title-designed">
+        <span class="site-title-main">
           XYZ-CHANGE Group
-          <span aria-hidden="true" style="display: inline-block; width: 34px; height: 3px; border-radius: 999px; background: linear-gradient(90deg, #245a8d 0%, #7fb7d4 100%);"></span>
+          <span class="site-title-mark" aria-hidden="true"></span>
         </span>
-        <small style="margin-top: 2px; color: #5f6f83; font-weight: 650; letter-spacing: 0.01em;">Climate, Health, and Air Quality for Next Generation</small>
+        <small>Climate, Health, and Air Quality for Next Generation</small>
       </span>
     </a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <nav class="site-nav header-nav" aria-label="Main navigation">
       {% for item in site.navigation %}
-        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+        <a class="nav-pill{% if page.url == item.url %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
       {% endfor %}
     </nav>
   </div>
 </header>
+
+<style>
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-brand:hover {
+  text-decoration: none;
+}
+
+.sdu-header-logo {
+  display: block;
+  width: 116px;
+  height: auto;
+  max-height: 34px;
+  object-fit: contain;
+}
+
+.site-title-designed {
+  position: relative;
+  padding-left: 15px;
+  border-left: 1px solid #d7e1ec;
+}
+
+.site-title-main {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 1.04rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #1f2933;
+}
+
+.site-title-mark {
+  display: inline-block;
+  width: 34px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #245a8d 0%, #7fb7d4 100%);
+}
+
+.site-title-designed small {
+  margin-top: 2px;
+  color: #5f6f83;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  background: rgba(247, 250, 252, 0.88);
+  box-shadow: 0 10px 24px rgba(31, 41, 51, 0.05);
+}
+
+.header-nav .nav-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 13px;
+  border: 0;
+  border-bottom: 0 !important;
+  border-radius: 999px;
+  color: #334155;
+  font-size: 0.94rem;
+  font-weight: 650;
+  line-height: 1.1;
+  transition: background 0.18s ease, color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.header-nav .nav-pill:hover {
+  background: #eaf2f8;
+  color: #245a8d;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.header-nav .nav-pill.active {
+  background: #245a8d;
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(36, 90, 141, 0.22);
+}
+
+.header-nav .nav-pill.active:hover {
+  background: #183f66;
+  color: #ffffff;
+}
+</style>
