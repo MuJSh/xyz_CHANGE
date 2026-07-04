@@ -24,7 +24,7 @@ exclude:
 navigation:
   - title: "Home"
     url: "/"
-  - title: "Group Members"
+  - title: "Members"
     url: "/group-members/"
   - title: "Publications"
     url: "/publications/"
