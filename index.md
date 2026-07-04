@@ -75,6 +75,10 @@ permalink: /
           <h3>Climate, Pollution, and Health</h3>
           <p>Interactions among air pollution, climate change, and human health under current and future scenarios.</p>
         </div>
+        <div class="research-card">
+          <h3>Ecosystem Impacts</h3>
+          <p>Assessing how air pollution, atmospheric deposition, and climate change affect ecosystems, vegetation, and ecosystem services.</p>
+        </div>
       </div>
     </section>
 
