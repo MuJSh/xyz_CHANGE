@@ -19,6 +19,8 @@ permalink: /news/
     {% assign news_link = '/xyz_CHANGE/news/2025-03-ai4am-workshop/' %}
   {% when '2025-01-01-pi-dr-zhang-attended-the-inaugural-meeting-of-the-ecological-environment-ai-committee-and-was-elected-executive-committee-member' %}
     {% assign news_link = '/xyz_CHANGE/news/2025-01-ecological-environment-ai-committee/' %}
+  {% when '2024-05-01-our-group-attended-the-nature-conference-air-pollution-and-climate-change' %}
+    {% assign news_link = '/xyz_CHANGE/news/2024-05-nature-conference/' %}
 {% endcase %}
 <div class="list-item">
   <span class="badge">{{ item.date }}</span>
