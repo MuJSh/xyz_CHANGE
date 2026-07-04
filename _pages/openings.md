@@ -61,6 +61,10 @@ permalink: /openings/
   <a class="button-link" href="mailto:Yuqiang.Zhang@sdu.edu.cn">Send Email</a>
 </section>
 
+<p class="openings-closing">
+  We are committed to building an open, collaborative, and interdisciplinary research environment.
+</p>
+
 <style>
 .openings-hero {
   margin-bottom: 28px;
@@ -218,6 +222,16 @@ permalink: /openings/
   color: #183f66;
   border-color: #ffffff;
   flex: 0 0 auto;
+}
+
+.openings-closing {
+  margin: 20px 0 0;
+  padding: 18px 22px;
+  border-left: 4px solid var(--accent);
+  border-radius: 14px;
+  background: #f8fbfd;
+  color: #465568;
+  font-weight: 650;
 }
 
 @media (max-width: 780px) {
