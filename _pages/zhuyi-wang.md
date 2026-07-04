@@ -24,8 +24,8 @@ permalink: /members/zhuyi-wang/
 
 ## Publications (selected)
 
-- To be updated.
+- Wang, Z.; Fan, B.; Yu, D.; Fan, Y.; An, D.; Pan, S. Monitoring the Spatio-Temporal Distribution of *Ulva prolifera* in the Yellow Sea (2020–2022) Based on Satellite Remote Sensing. *Remote Sensing*, 2023, 15, 157. <https://doi.org/10.3390/rs15010157>
 
 ## Related Links
 
-- [Google Scholar](https://scholar.google.com/scholar?q=Zhuyi+Wang)
+- [ResearchGate](https://www.researchgate.net/profile/Zhuyi-Wang-3)
