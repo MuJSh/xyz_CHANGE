@@ -29,3 +29,4 @@ permalink: /members/zhuyi-wang/
 ## Related Links
 
 - [ResearchGate](https://www.researchgate.net/profile/Zhuyi-Wang-3)
+- [Google Scholar](https://scholar.google.com/citations?user=ntL2HM0AAAAJ&hl=zh-CN&oi=sra)
