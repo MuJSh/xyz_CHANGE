@@ -4,10 +4,6 @@ title: "Home"
 permalink: /
 ---
 
-<div class="home-logo-strip">
-  <img class="sdu-logo" src="{{ '/assets/img/news/sdulogo.png' | relative_url }}" alt="Shandong University logo">
-</div>
-
 <section class="home-layout">
   <aside class="home-sidebar card">
     <img class="home-profile-photo" src="https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/Yuqiangzhang.jpg" alt="Yuqiang Zhang">
@@ -115,24 +111,6 @@ permalink: /
 </section>
 
 <style>
-.home-logo-strip {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  min-height: 30px;
-  margin: -14px 0 22px;
-}
-
-.home-logo-strip .sdu-logo {
-  display: block;
-  width: auto;
-  height: 28px;
-  max-width: min(100%, 460px);
-  margin: 0;
-  border-radius: 0;
-  opacity: 0.9;
-}
-
 .home-photo-carousel-shell {
   position: relative;
   border-radius: 24px;
