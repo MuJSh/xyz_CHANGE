@@ -11,7 +11,6 @@ permalink: /publications/
 <details class="publication-year-block" open>
   <summary>
     <span class="publication-year-title">{{ year_group.name }}</span>
-    <span class="publication-year-count">{{ year_group.items | size }} publications</span>
   </summary>
   <div class="publication-year-list">
     {% for pub in year_group.items %}
@@ -84,13 +83,6 @@ permalink: /publications/
   font-weight: 800;
 }
 
-.publication-year-count {
-  margin-left: auto;
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 650;
-}
-
 .publication-year-list {
   padding: 2px 20px 4px;
 }
@@ -101,15 +93,5 @@ permalink: /publications/
 
 .publication-item p:first-child {
   margin-top: 0;
-}
-
-@media (max-width: 780px) {
-  .publication-year-block summary {
-    align-items: flex-start;
-  }
-
-  .publication-year-count {
-    display: none;
-  }
 }
 </style>
