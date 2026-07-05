@@ -1,0 +1,2 @@
+Rebuild marker after restoring members stylesheet.
+Latest requested restore commit: 1590611a
