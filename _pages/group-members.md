@@ -29,7 +29,6 @@ permalink: /group-members/
           {% endfor %}
         </p>
         {% endif %}
-        {% if member.profile and member.profile != "" %}<p class="member-profile-link"><a href="{{ member.profile }}">Profile</a></p>{% endif %}
       </div>
     </div>
   {% endfor %}
@@ -61,7 +60,6 @@ permalink: /group-members/
           {% endfor %}
         </p>
         {% endif %}
-        {% if member.profile and member.profile != "" %}<p class="member-profile-link"><a href="{{ member.profile }}">Profile</a></p>{% endif %}
       </div>
     </div>
   {% endfor %}
@@ -80,7 +78,6 @@ permalink: /group-members/
       <h3>{% if member.profile and member.profile != "" %}<a href="{{ member.profile }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
       <p class="meta">{{ member.role }}</p>
       {% if member.now %}<p class="alumni-now">Now: {{ member.now }}</p>{% endif %}
-      {% if member.profile and member.profile != "" %}<p class="member-profile-link"><a href="{{ member.profile }}">Profile</a></p>{% endif %}
     </div>
   {% endfor %}
   </div>
