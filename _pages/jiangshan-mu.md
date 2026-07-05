@@ -15,9 +15,10 @@ permalink: /members/jiangshan-mu/
 
 ## Research Areas
 
-- Atmospheric chemistry
-- Machine learning for air quality and atmospheric processes
-- Wildfire emissions and nitrogen deposition
+- Atmospheric composition and air pollution
+- Data-driven pollutant reconstruction
+- Exposure, inequality, and health
+- Air quality-climate interactions
 
 ## Education
 
@@ -35,5 +36,3 @@ permalink: /members/jiangshan-mu/
 - [Personal Page](https://jiangshanmu.github.io/mujsh.github.io/)
 - [ResearchGate](https://www.researchgate.net/profile/Jiangshan-Mu-2)
 - [Google Scholar](https://scholar.google.com/citations?user=fmu5BbMAAAAJ&hl=zh-CN&oi=sra)
-
-<!-- rebuild jiangshan profile -->
