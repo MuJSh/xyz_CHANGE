@@ -427,6 +427,37 @@
   line-height: 1.5;
 }
 
+.profile-hero ~ h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 36px 0 16px;
+  padding-left: 16px;
+  color: #1f2933;
+  font-size: 1.46rem;
+  line-height: 1.25;
+}
+
+.profile-hero ~ h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 4px;
+  height: 28px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #245a8d 0%, #7fb7d4 100%);
+  transform: translateY(-50%);
+}
+
+.profile-hero ~ h2::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, #d8e3ed 0%, rgba(216, 227, 237, 0) 100%);
+}
+
 @media (max-width: 900px) {
   .members-card-grid,
   .alumni-card-grid {
@@ -474,6 +505,10 @@
   .alumni-card-grid {
     grid-template-columns: 1fr;
   }
+
+  .profile-hero ~ h2::after {
+    display: none;
+  }
 }
 
-/* members page redesign */
+/* profile headings style */
