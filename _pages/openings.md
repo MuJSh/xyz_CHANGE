@@ -5,11 +5,14 @@ permalink: /openings/
 ---
 
 <section class="openings-hero">
-  <p class="openings-kicker">Join XYZ-CHANGE Group</p>
-  <h1>Openings</h1>
-  <p>
-    We welcome motivated researchers and students working at the intersection of atmospheric chemistry, air quality, climate, health, satellite remote sensing, chemical transport modeling, and machine learning for environmental applications.
-  </p>
+  <img class="openings-hero-logo-watermark" src="{{ '/assets/img/news/grouplogo.png' | relative_url }}" alt="CHANGE Group logo">
+  <div class="openings-hero-content">
+    <p class="openings-kicker">Join XYZ-CHANGE Group</p>
+    <h1>Openings</h1>
+    <p>
+      We welcome motivated researchers and students working at the intersection of atmospheric chemistry, air quality, climate, health, satellite remote sensing, chemical transport modeling, and machine learning for environmental applications.
+    </p>
+  </div>
 </section>
 
 <section class="opening-card-grid">
@@ -59,12 +62,32 @@ permalink: /openings/
 
 <style>
 .openings-hero {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 28px;
   padding: 30px;
   border: 1px solid var(--border);
   border-radius: 24px;
   background: linear-gradient(135deg, #ffffff 0%, #eef5fb 100%);
   box-shadow: 0 14px 34px rgba(31, 41, 51, 0.06);
+}
+
+.openings-hero-logo-watermark {
+  position: absolute;
+  right: 72px;
+  top: 50%;
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  opacity: 0.12;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.openings-hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .openings-hero h1 {
@@ -212,6 +235,13 @@ permalink: /openings/
 @media (max-width: 780px) {
   .openings-hero {
     padding: 24px;
+  }
+
+  .openings-hero-logo-watermark {
+    right: 20px;
+    width: 170px;
+    height: 170px;
+    opacity: 0.08;
   }
 
   .opening-card-grid {
