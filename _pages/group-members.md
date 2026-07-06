@@ -12,12 +12,16 @@ permalink: /group-members/
 
   <div class="pi-member-grid">
   {% for member in site.data.members.pi %}
+    {% assign member_photo = member.photo %}
+    {% case member.profile %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/yuqiang-zhang/" %}{% assign member_photo = "/assets/img/members/Yuqiangzhang.jpg" %}
+    {% endcase %}
     <div class="card member-card pi-member-card">
-      {% if member.photo and member.photo != "" %}
-        {% if member.photo contains '://' %}
-          <img class="member-photo" src="{{ member.photo }}" alt="{{ member.name }}">
+      {% if member_photo and member_photo != "" %}
+        {% if member_photo contains '://' %}
+          <img class="member-photo" src="{{ member_photo }}" alt="{{ member.name }}">
         {% else %}
-          <img class="member-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+          <img class="member-photo" src="{{ member_photo | relative_url }}" alt="{{ member.name }}">
         {% endif %}
       {% else %}
         <div class="avatar">{{ member.initials }}</div>
@@ -47,12 +51,21 @@ permalink: /group-members/
 
   <div class="members-card-grid">
   {% for member in site.data.members.current %}
+    {% assign member_photo = member.photo %}
+    {% case member.profile %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/lin-li/" %}{% assign member_photo = "/assets/img/members/linli.jpg" %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/zhuyi-wang/" %}{% assign member_photo = "/assets/img/members/zhuyiwang.jpg" %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/bin-luo/" %}{% assign member_photo = "/assets/img/members/binluo.jpg" %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/zhaoqi-gao/" %}{% assign member_photo = "/assets/img/members/gzq.jpg" %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/qionghui-zhou/" %}{% assign member_photo = "/assets/img/members/zqh.jpg" %}
+      {% when "https://mujsh.github.io/xyz_CHANGE/members/chengwen-niu/" %}{% assign member_photo = "/assets/img/members/ncw.jpg" %}
+    {% endcase %}
     <div class="card member-card current-member-card">
-      {% if member.photo and member.photo != "" %}
-        {% if member.photo contains '://' %}
-          <img class="member-photo" src="{{ member.photo }}" alt="{{ member.name }}">
+      {% if member_photo and member_photo != "" %}
+        {% if member_photo contains '://' %}
+          <img class="member-photo" src="{{ member_photo }}" alt="{{ member.name }}">
         {% else %}
-          <img class="member-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+          <img class="member-photo" src="{{ member_photo | relative_url }}" alt="{{ member.name }}">
         {% endif %}
       {% else %}
         <div class="avatar">{{ member.initials }}</div>
