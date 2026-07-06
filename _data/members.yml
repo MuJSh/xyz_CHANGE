@@ -19,6 +19,7 @@ pi:
       - "Air quality and climate interactions"
       - "Environmental health"
       - "Chemical transport modeling"
+      - "Machine learning"
 
 current:
   - name: "Lin Li | 李琳"
