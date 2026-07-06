@@ -75,7 +75,7 @@ permalink: /openings/
 .openings-hero-logo-watermark {
   position: absolute;
   right: 72px;
-  top: 50%;
+  top: 42%;
   width: 220px;
   height: 220px;
   object-fit: contain;
@@ -239,6 +239,7 @@ permalink: /openings/
 
   .openings-hero-logo-watermark {
     right: 20px;
+    top: 42%;
     width: 170px;
     height: 170px;
     opacity: 0.08;
