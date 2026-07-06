@@ -5,7 +5,7 @@ permalink: /members/chengwen-niu/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/chengwen-niu.jpg' | relative_url }}" alt="Chengwen Niu">
+  <img class="profile-photo" src="{{ '/assets/img/members/ncw.jpg' | relative_url }}" alt="Chengwen Niu">
   <div>
     <h1>Chengwen Niu</h1>
     <p class="profile-title">Master Student</p>
