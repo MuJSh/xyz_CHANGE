@@ -27,6 +27,7 @@ permalink: /members/yuqiang-zhang/
 - Urban heat island effects on air quality
 - Machine learning for atmospheric and environmental applications
 - Interactions among air pollution, climate change, and human health
+- Ecosystem Impacts
 
 ## Professional Experience
 
@@ -37,9 +38,9 @@ permalink: /members/yuqiang-zhang/
 
 ## Education
 
-- 2016.01, Ph.D. in Environmental Science and Engineering, University of North Carolina at Chapel Hill
-- 2011.07, M.S. in Environmental Science and Engineering, Tsinghua University
-- 2008.07, B.S. in Environmental Science and Engineering, Shandong University
+- 2011-2016, Ph.D. in Environmental Science and Engineering, University of North Carolina at Chapel Hill
+- 2008-2011, M.S. in Environmental Science and Engineering, Tsinghua University
+- 2004-2008, B.S. in Environmental Science and Engineering, Shandong University
 
 ## Honors and Awards
 
