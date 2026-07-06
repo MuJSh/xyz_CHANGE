@@ -5,7 +5,7 @@ permalink: /members/zhuyi-wang/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/zhuyiwang.jpg" alt="Zhuyi Wang">
+  <img class="profile-photo" src="{{ '/assets/img/members/zhuyi-wang.jpg' | relative_url }}" alt="Zhuyi Wang">
   <div>
     <h1>Zhuyi Wang</h1>
     <p class="profile-title">PhD Student</p>
