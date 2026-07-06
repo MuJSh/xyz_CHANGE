@@ -14,10 +14,10 @@ permalink: /members/xuanying-ji/
 
 ## Research Areas
 
-- xxxx
+- Air pollution impacts on renewable energy systems
 
 ## Education
-
+- 2023-2026, M.S., Shandong University
 - 2019-2023, B.S., Shandong Agricultural University
 
 ## Publications (selected)
