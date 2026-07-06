@@ -5,7 +5,7 @@ permalink: /members/jiangshan-mu/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/jiangshan-mu.jpg' | relative_url }}" alt="Jiangshan Mu">
+  <img class="profile-photo" src="{{ '/assets/img/members/jsmu.jpg' | relative_url }}" alt="Jiangshan Mu">
   <div>
     <h1>Jiangshan Mu</h1>
     <p class="profile-title">Postdoctoral Fellow in CHANGE, 2022-2025</p>
