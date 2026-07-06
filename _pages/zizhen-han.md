@@ -19,11 +19,15 @@ permalink: /members/zizhen-han/
 
 ## Education
 
-- To be updated.
+- 2025-now, Ph.D., Beijing University of Technology
+- 2023-2025, Research Assistant, Shandong University
+- 2020-2023, M.S., Beijing University of Technology
+- 2016-2020, B.S., Beijing University of Technology
 
 ## Publications (selected)
 
-- To be updated.
+- Han Z, Guan T, Wang X, et al. Development of a data-driven three-dimensional PM2. 5 forecast model based on machine learning algorithms[J]. Environmental Technology & Innovation, 2025, 37: 103930.
+- Han Z, Zhang Y, Liu Z, et al. Evaluating the effects of COVID-19 lockdowns on air quality across some African countries[J]. Environmental Science: Atmospheres, 2026, 6(4): 533-550.
 
 ## Related Links
 
