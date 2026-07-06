@@ -5,7 +5,7 @@ permalink: /members/qionghui-zhou/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/zqh.jpg" alt="Qionghui Zhou">
+  <img class="profile-photo" src="{{ '/assets/img/members/qionghui-zhou.jpg' | relative_url }}" alt="Qionghui Zhou">
   <div>
     <h1>Qionghui Zhou</h1>
     <p class="profile-title">Master Student</p>
