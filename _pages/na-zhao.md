@@ -5,7 +5,7 @@ permalink: /members/na-zhao/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/nazhao.jpg" alt="Na Zhao">
+  <img class="profile-photo" src="{{ '/assets/img/members/na-zhao.jpg' | relative_url }}" alt="Na Zhao">
   <div>
     <h1>Na Zhao</h1>
     <p class="profile-title">Postdoctoral Fellow in CHANGE, 2022-2026</p>
