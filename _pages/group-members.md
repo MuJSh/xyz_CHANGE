@@ -14,7 +14,11 @@ permalink: /group-members/
   {% for member in site.data.members.pi %}
     <div class="card member-card pi-member-card">
       {% if member.photo and member.photo != "" %}
-        <img class="member-photo" src="{{ member.photo }}" alt="{{ member.name }}">
+        {% if member.photo contains '://' %}
+          <img class="member-photo" src="{{ member.photo }}" alt="{{ member.name }}">
+        {% else %}
+          <img class="member-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+        {% endif %}
       {% else %}
         <div class="avatar">{{ member.initials }}</div>
       {% endif %}
@@ -45,7 +49,11 @@ permalink: /group-members/
   {% for member in site.data.members.current %}
     <div class="card member-card current-member-card">
       {% if member.photo and member.photo != "" %}
-        <img class="member-photo" src="{{ member.photo }}" alt="{{ member.name }}">
+        {% if member.photo contains '://' %}
+          <img class="member-photo" src="{{ member.photo }}" alt="{{ member.name }}">
+        {% else %}
+          <img class="member-photo" src="{{ member.photo | relative_url }}" alt="{{ member.name }}">
+        {% endif %}
       {% else %}
         <div class="avatar">{{ member.initials }}</div>
       {% endif %}
