@@ -5,7 +5,7 @@ permalink: /members/xuanying-ji/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/xuanying-ji.jpg' | relative_url }}" alt="Xuanying Ji">
+  <img class="profile-photo" src="{{ '/assets/img/members/JXY.jpg' | relative_url }}" alt="Xuanying Ji">
   <div>
     <h1>Xuanying Ji</h1>
     <p class="profile-title">Master Student in CHANGE, 2023-2026</p>
@@ -17,12 +17,13 @@ permalink: /members/xuanying-ji/
 - Air pollution impacts on renewable energy systems
 
 ## Education
+
 - 2023-2026, M.S., Shandong University
 - 2019-2023, B.S., Shandong Agricultural University
 
 ## Publications (selected)
 
-- Ji, X., Liu, Z., Mu, J., et al. Boosting solar efficiency: the unforeseen benefit of China's clean air action plan. *Environmental Research Letters*, 2026, 21(1), 014012. <https://iopscience.iop.org/article/10.1088/1748-9326/ae2e16/meta>
+- Ji, X., Liu, Z., Mu, J., et al. Boosting solar efficiency: the unforeseen benefit of China's clean air action plan. Environmental Research Letters, 2026, 21(1), 014012.
 
 ## Related Links
 
