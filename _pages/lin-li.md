@@ -5,7 +5,7 @@ permalink: /members/lin-li/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/linli.jpg" alt="Lin Li">
+  <img class="profile-photo" src="{{ '/assets/img/members/lin-li.jpg' | relative_url }}" alt="Lin Li">
   <div>
     <h1>Lin Li</h1>
     <p class="profile-title">Postdoctoral Fellow</p>
