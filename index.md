@@ -6,7 +6,7 @@ permalink: /
 
 <section class="home-layout">
   <aside class="home-sidebar card">
-    <img class="home-profile-photo" src="{{ '/assets/img/members/yuqiang-zhang.jpg' | relative_url }}" alt="Yuqiang Zhang">
+    <img class="home-profile-photo" src="{{ '/assets/img/members/Yuqiangzhang.jpg' | relative_url }}" alt="Yuqiang Zhang">
     <h1>Yuqiang Zhang</h1>
     <p class="profile-title">Professor</p>
     <p class="meta">Environment Research Institute<br>Shandong University</p>
