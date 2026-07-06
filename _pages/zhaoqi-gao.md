@@ -5,7 +5,7 @@ permalink: /members/zhaoqi-gao/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/zhaoqi-gao.jpg' | relative_url }}" alt="Zhaoqi Gao">
+  <img class="profile-photo" src="{{ '/assets/img/members/gzq.jpg' | relative_url }}" alt="Zhaoqi Gao">
   <div>
     <h1>Zhaoqi Gao</h1>
     <p class="profile-title">PhD Student</p>
