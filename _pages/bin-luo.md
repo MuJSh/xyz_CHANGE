@@ -5,7 +5,7 @@ permalink: /members/bin-luo/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/bin-luo.jpg' | relative_url }}" alt="Bin Luo">
+  <img class="profile-photo" src="{{ '/assets/img/members/binluo.jpg' | relative_url }}" alt="Bin Luo">
   <div>
     <h1>Bin Luo</h1>
     <p class="profile-title">PhD Student</p>
