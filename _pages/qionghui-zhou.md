@@ -5,7 +5,7 @@ permalink: /members/qionghui-zhou/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/qionghui-zhou.jpg' | relative_url }}" alt="Qionghui Zhou">
+  <img class="profile-photo" src="{{ '/assets/img/members/zqh.jpg' | relative_url }}" alt="Qionghui Zhou">
   <div>
     <h1>Qionghui Zhou</h1>
     <p class="profile-title">Master Student</p>
