@@ -4,7 +4,7 @@ pi:
     affiliation: "Shandong University"
     email: "Yuqiang.Zhang@sdu.edu.cn"
     initials: "YZ"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/Yuqiangzhang.jpg"
+    photo: "assets/img/members/yuqiang-zhang.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/yuqiang-zhang/"
     education:
       - "2022–, Professor, Shandong University"
@@ -27,7 +27,7 @@ current:
     affiliation: "Shandong University"
     email: "linli@sdu.edu.cn"
     initials: "LL"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/linli.jpg"
+    photo: "assets/img/members/lin-li.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/lin-li/"
     education:
       - "2017–2022, PhD, Nanjing University of Information Science & Technology"
@@ -46,7 +46,7 @@ current:
     affiliation: "Shandong University"
     email: "zhuyi_wang@163.com"
     initials: "ZW"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/zhuyiwang.jpg"
+    photo: "assets/img/members/zhuyi-wang.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/zhuyi-wang/"
     education:
       - "2020–2023, MS, China University of Petroleum (East China)"
@@ -57,7 +57,7 @@ current:
     affiliation: "Shandong University"
     email: "luobin.sdu@mail.sdu.edu.cn"
     initials: "BL"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/binluo.jpg"
+    photo: "assets/img/members/bin-luo.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/bin-luo/"
     education:
       - "2018–2022, BS, Xiangtan University"
@@ -67,7 +67,7 @@ current:
     affiliation: "Shandong University"
     email: "zhaoqigao@mail.sdu.edu.cn"
     initials: "ZG"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/gzq.jpg"
+    photo: "assets/img/members/zhaoqi-gao.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/zhaoqi-gao/"
     education:
       - "2022–2025, MS, Shandong University"
@@ -78,7 +78,7 @@ current:
     affiliation: "Shandong University"
     email: "202433120@mail.sdu.edu.cn"
     initials: "QZ"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/zqh.jpg"
+    photo: "assets/img/members/qionghui-zhou.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/qionghui-zhou/"
     education:
       - "2020–2024, BS, Henan University of Technology"
@@ -88,7 +88,7 @@ current:
     affiliation: "Shandong University"
     email: "chaojixiaoniuniu@qq.com"
     initials: "CN"
-    photo: "https://mujsh.github.io/YuqiangZhangLab.github.io/images/peopic/ncw.jpg"
+    photo: "assets/img/members/chengwen-niu.jpg"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/chengwen-niu/"
     education:
       - "2021–2025, BS, Shandong Agricultural University"
