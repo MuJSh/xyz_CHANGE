@@ -5,7 +5,7 @@ permalink: /members/yuqiang-zhang/
 ---
 
 <div class="profile-hero">
-  <img class="profile-photo" src="{{ '/assets/img/members/yuqiang-zhang.jpg' | relative_url }}" alt="Yuqiang Zhang">
+  <img class="profile-photo" src="{{ '/assets/img/members/Yuqiangzhang.jpg' | relative_url }}" alt="Yuqiang Zhang">
   <div>
     <h1>Yuqiang Zhang</h1>
     <p class="profile-title">Professor, Shandong University</p>
