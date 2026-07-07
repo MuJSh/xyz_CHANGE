@@ -10,7 +10,7 @@ permalink: /members/jiangshan-mu/
     <h1>Jiangshan Mu</h1>
     <p class="profile-title">Ph.D. student in CHANGE, 2022-2025</p>
     <p class="meta">Now: Postdoctoral Fellow at Duke University</p>
-    <p>xxx</p>
+    <p>jiangshan.mu@duke.edu</p>
   </div>
 </div>
 
