@@ -95,31 +95,43 @@ current:
 
 alumni:
   - name: "Xuanying Ji"
+    name_zh: "吉烜莹"
+    email: "xxx"
     role: "Master Student in CHANGE, 2023–2026"
     now: ""
     profile: "https://mujsh.github.io/xyz_CHANGE/members/xuanying-ji/"
 
   - name: "Na Zhao"
+    name_zh: "赵娜"
+    email: "xxx"
     role: "Postdoctoral Fellow in CHANGE, 2022–2026"
     now: "Associate Professor at Qingdao University of Technology"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/na-zhao/"
 
   - name: "Jiangshan Mu"
+    name_zh: "牟江山"
+    email: "xxx"
     role: "PhD student in CHANGE, 2022–2025"
     now: "Postdoctoral Fellow at Duke University"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/jiangshan-mu/"
 
   - name: "Kexin Zhang"
+    name_zh: "张可心"
+    email: "xxx"
     role: "Undergraduate Student in CHANGE"
     now: "PhD student in Tsinghua Shenzhen International Graduate School"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/kexin-zhang/"
 
   - name: "Zizhen Han"
+    name_zh: "韩子祯"
+    email: "xxx"
     role: "Research Assistant in CHANGE, 2023–2025"
     now: "PhD student at Beijing University of Technology"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/zizhen-han/"
 
   - name: "Zhou Liu"
+    name_zh: "刘舟"
+    email: "xxx"
     role: "Research Assistant in CHANGE, 2023–2024"
     now: "PhD student at Fudan University"
     profile: "https://mujsh.github.io/xyz_CHANGE/members/zhou-liu/"
