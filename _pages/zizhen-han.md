@@ -10,6 +10,7 @@ permalink: /members/zizhen-han/
     <h1>Zizhen Han</h1>
     <p class="profile-title">Research Assistant in CHANGE, 2021-2022</p>
     <p class="meta">Now: PhD student at Beijing University of Technology</p>
+    <p>xxx</p>
   </div>
 </div>
 
