@@ -10,7 +10,7 @@ permalink: /members/zhou-liu/
     <h1>Zhou Liu</h1>
     <p class="profile-title">Research Assistant in CHANGE, 2021-2022</p>
     <p class="meta">Now: PhD student at Fudan University</p>
-    <p>xxx</p>
+    <p><a href="mailto:liuzhou980@gmail.com">liuzhou980@gmail.com</a></p>
   </div>
 </div>
 
