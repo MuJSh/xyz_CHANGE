@@ -96,10 +96,17 @@ permalink: /group-members/
   <div class="alumni-card-grid">
   {% for member in site.data.members.alumni %}
     <div class="alumni-card">
-      <h3>{% if member.profile and member.profile != "" %}<a href="{{ member.profile }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
-      {% if member.name_zh and member.name_zh != "" %}<p class="alumni-name-zh">{{ member.name_zh }}</p>{% endif %}
+      <h3>
+        {% if member.profile and member.profile != "" %}<a href="{{ member.profile }}">{{ member.name }}{% if member.name_zh and member.name_zh != "" %} | {{ member.name_zh }}{% endif %}</a>{% else %}{{ member.name }}{% if member.name_zh and member.name_zh != "" %} | {{ member.name_zh }}{% endif %}{% endif %}
+      </h3>
+      {% if member.email and member.email != "" %}
+        {% if member.email contains '@' %}
+          <p class="alumni-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        {% else %}
+          <p class="alumni-email">{{ member.email }}</p>
+        {% endif %}
+      {% endif %}
       <p class="meta">{{ member.role }}</p>
-      {% if member.email and member.email != "" %}<p class="alumni-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>{% endif %}
       {% if member.now %}<p class="alumni-now">Now: {{ member.now }}</p>{% endif %}
     </div>
   {% endfor %}
