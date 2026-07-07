@@ -8,8 +8,8 @@ permalink: /members/jiangshan-mu/
   <img class="profile-photo" src="{{ '/assets/img/members/jsmu.jpg' | relative_url }}" alt="Jiangshan Mu">
   <div>
     <h1>Jiangshan Mu</h1>
-    <p class="profile-title">Postdoctoral Fellow in CHANGE, 2022-2025</p>
-    <p class="meta">Now: Postdoctoral Researcher at Duke University</p>
+    <p class="profile-title">Ph.D. student in CHANGE, 2022-2025</p>
+    <p class="meta">Now: Postdoctoral Fellow at Duke University</p>
   </div>
 </div>
 
