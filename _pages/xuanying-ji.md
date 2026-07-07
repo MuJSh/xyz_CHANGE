@@ -9,7 +9,7 @@ permalink: /members/xuanying-ji/
   <div>
     <h1>Xuanying Ji</h1>
     <p class="profile-title">Master Student in CHANGE, 2023-2026</p>
-    <p>xxx</p>
+    <p><a href="mailto:jxy15668462325@163.com">jxy15668462325@163.com</a></p>
   </div>
 </div>
 
