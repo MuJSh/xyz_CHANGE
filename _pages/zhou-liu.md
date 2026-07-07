@@ -10,6 +10,7 @@ permalink: /members/zhou-liu/
     <h1>Zhou Liu</h1>
     <p class="profile-title">Research Assistant in CHANGE, 2021-2022</p>
     <p class="meta">Now: PhD student at Fudan University</p>
+    <p>xxx</p>
   </div>
 </div>
 
@@ -26,8 +27,7 @@ permalink: /members/zhou-liu/
 
 ## Publications (selected)
 
-- Liu, Z., Guo, F., Zhang, Y., Wu, Z., Lu, X., Deng, J., et al. Impact of lightning-induced nitrogen oxides over and around the Tibetan Plateau on the Tibetan Plateau ozone valley. J. Geophys. Res: Atmos., 129, e2023JD039575.  https://doi.org/10.1029/2023JD039575, 2024.
-
+- Liu, Z., Guo, F., Zhang, Y., Wu, Z., Lu, X., Deng, J., et al. Impact of lightning-induced nitrogen oxides over and around the Tibetan Plateau on the Tibetan Plateau ozone valley. Journal of Geophysical Research: Atmospheres, 2024.
 
 ## Related Links
 
