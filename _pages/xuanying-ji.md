@@ -9,6 +9,7 @@ permalink: /members/xuanying-ji/
   <div>
     <h1>Xuanying Ji</h1>
     <p class="profile-title">Master Student in CHANGE, 2023-2026</p>
+    <p>xxx</p>
   </div>
 </div>
 
