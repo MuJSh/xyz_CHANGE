@@ -15,7 +15,9 @@ permalink: /members/zhaoqi-gao/
 
 ## Research Areas
 
-- xxxx
+- Air quality model
+- Emission inventory
+- Atmospheric chemistry
 
 ## Education
 
