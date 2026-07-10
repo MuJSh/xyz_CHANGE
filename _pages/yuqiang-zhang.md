@@ -20,6 +20,14 @@ permalink: /members/yuqiang-zhang/
   </div>
 </div>
 
+## Biography
+
+Dr. Yuqiang Zhang is a Professor and doctoral supervisor at the Environment Research Institute, Shandong University. He was selected for the National Overseas High-Level Young Talents Program and recognized as a Distinguished Young and Middle-Aged Scholar of Shandong University.
+
+His research uses global and regional climate models (GCMs), chemical transport models (CTMs), and high-resolution satellite retrievals to investigate coordinated pathways for carbon neutrality and air quality attainment, transboundary transport of air pollutants, impacts of climate change on air quality and human health, and the effects of urbanization on air quality and health.
+
+His work has been published in high-profile journals including <em>Nature Geoscience</em>, <em>Nature Climate Change</em>, <em>The Lancet Planetary Health</em>, <em>Nature Communications</em>, and <em>PNAS</em>. He has published 54 SCI papers with more than 4,500 SCI citations, and has served as an invited reviewer for more than 180 manuscripts in over 40 journals, including <em>Nature Climate Change</em>, <em>Nature Communications</em>, <em>The Lancet Planetary Health</em>, <em>Environment International</em>, and <em>Atmospheric Chemistry and Physics</em>. He maintains active collaborations with leading universities in China and abroad. He also serves as a standing committee member of the Ozone Committee of the Chinese Society for Environmental Sciences (2024-2029), a standing committee member of the Artificial Intelligence Committee of the Chinese Society for Environmental Sciences (2024-2029), and an editorial board member of <em>Earth System Science Data</em> (ESSD).
+
 ## Research Areas
 
 - Wet and dry atmospheric deposition
