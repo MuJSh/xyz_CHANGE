@@ -20,7 +20,7 @@ permalink: /members/yuqiang-zhang/
   </div>
 </div>
 
-## Biography
+## Personal Information
 
 Dr. Yuqiang Zhang is a Professor and doctoral supervisor at the Environment Research Institute, Shandong University. He was selected for the National Overseas High-Level Young Talents Program and recognized as a Distinguished Young and Middle-Aged Scholar of Shandong University.
 
