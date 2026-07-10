@@ -10,13 +10,13 @@ permalink: /members/kexin-zhang/
     <h1>Kexin Zhang</h1>
     <p class="profile-title">Undergraduate Student in CHANGE</p>
     <p class="meta">Now: Tsinghua Shenzhen International Graduate School</p>
-    <p>xxx</p>
+    <p>zhangkx25@mails.tsinghua.edu.cn</p>
   </div>
 </div>
 
 ## Research Areas
 
-- xxxx
+- Satellite-based emissions inversion
 
 ## Education
 
