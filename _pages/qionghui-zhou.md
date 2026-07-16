@@ -15,7 +15,9 @@ permalink: /members/qionghui-zhou/
 
 ## Research Areas
 
-- xxxx
+- Using the WRF-CMAQ model to study air quality changes
+- Inequality in exposure to air pollutants
+- Health impacts of ambient air pollution
 
 ## Education
 
