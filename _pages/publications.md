@@ -22,6 +22,19 @@ permalink: /publications/
     <span class="publication-year-title">{{ current_year }}</span>
   </summary>
   <div class="publication-year-list">
+  {% if current_year == "2026" %}
+    {% for recent_pub in site.data.publications_additions %}
+    <div class="list-item publication-item">
+      <p>{{ recent_pub.citation }}</p>
+      {% if recent_pub.note and recent_pub.note != "" %}
+      <p><span class="badge">{{ recent_pub.note }}</span></p>
+      {% endif %}
+      {% if recent_pub.url and recent_pub.url != "" %}
+      <p><a href="{{ recent_pub.url }}">DOI / Link</a></p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  {% endif %}
 {% endif %}
     {% assign citation = pub.citation %}
     <div class="list-item publication-item">
