@@ -93,6 +93,16 @@ current:
     education:
       - "2021–2025, BS, Shandong Agricultural University"
 
+  - name: "Canguo Li"
+    role: "Undergraduate Student"
+    affiliation: "Shandong University"
+    email: "canguoli@mail.sdu.edu.cn"
+    initials: "CL"
+    photo: ""
+    profile: "https://mujsh.github.io/xyz_CHANGE/members/canguo-li/"
+    education:
+      - "2022-2026, BS, Chengdu University of Technology"
+
 alumni:
   - name: "Xuanying Ji"
     name_zh: "吉烜莹"
