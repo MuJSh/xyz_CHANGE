@@ -8,7 +8,7 @@ permalink: /members/canguo-li/
   <div class="avatar">CL</div>
   <div>
     <h1>Canguo Li</h1>
-    <p class="profile-title">Undergraduate Student</p>
+    <p class="profile-title">Master Student</p>
     <p><a href="mailto:canguoli@mail.sdu.edu.cn">canguoli@mail.sdu.edu.cn</a></p>
   </div>
 </div>
