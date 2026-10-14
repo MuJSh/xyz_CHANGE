@@ -5,7 +5,7 @@ permalink: /members/canguo-li/
 ---
 
 <div class="profile-hero">
-  <div class="avatar">CL</div>
+  <img class="profile-photo" src="{{ '/assets/img/members/lcg.jpg' | relative_url }}" alt="Canguo Li">
   <div>
     <h1>Canguo Li</h1>
     <p class="profile-title">Master Student</p>
