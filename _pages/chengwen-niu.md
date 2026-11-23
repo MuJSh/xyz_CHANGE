@@ -15,7 +15,7 @@ permalink: /members/chengwen-niu/
 
 ## Research Areas
 
-- xxxx
+- Machine learning and air quality.
 
 ## Education
 
