@@ -16,7 +16,7 @@ permalink: /members/zizhen-han/
 
 ## Research Areas
 
-- To be updated.
+- Model-based analysis of changes in ozone concentrations.
 
 ## Education
 
