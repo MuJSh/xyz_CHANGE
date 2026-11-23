@@ -82,7 +82,12 @@
 
 .header-nav {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: auto;
   gap: 4px;
   padding: 6px;
   border: 1px solid #e2e8f0;
@@ -93,8 +98,10 @@
 
 .header-nav .nav-pill {
   display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
   padding: 7px 13px;
   border: 0;
   border-bottom: 0 !important;
