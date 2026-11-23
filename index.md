@@ -166,6 +166,21 @@ permalink: /
 
 <script>
 (function () {
+  const sidebar = document.querySelector('.home-sidebar');
+  const header = document.querySelector('.site-header');
+  if (!sidebar || !header) return;
+
+  function updateSidebarHeight() {
+    const availableHeight = window.innerHeight - sidebar.getBoundingClientRect().top - 24;
+    sidebar.style.setProperty('--home-sidebar-available-height', Math.max(0, availableHeight) + 'px');
+  }
+
+  new ResizeObserver(updateSidebarHeight).observe(header);
+  window.addEventListener('resize', updateSidebarHeight);
+  updateSidebarHeight();
+})();
+
+(function () {
   const carousel = document.getElementById('homePhotoCarousel');
   if (!carousel) return;
 

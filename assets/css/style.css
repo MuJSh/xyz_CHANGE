@@ -116,11 +116,17 @@ a:hover {
 }
 
 .home-sidebar {
-  position: sticky;
-  top: 96px;
+  position: fixed;
+  top: auto;
+  width: 280px;
+  z-index: 1;
   text-align: center;
   background: rgba(255, 255, 255, 0.94);
   box-shadow: 0 12px 30px rgba(31, 41, 51, 0.06);
+}
+
+.home-main {
+  grid-column: 2;
 }
 
 .home-profile-photo {
@@ -528,7 +534,12 @@ a:hover {
 
   .home-sidebar {
     position: static;
+    width: auto;
     text-align: left;
+  }
+
+  .home-main {
+    grid-column: 1;
   }
 
   .home-profile-photo {
